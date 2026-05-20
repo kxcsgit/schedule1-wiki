@@ -1,0 +1,426 @@
+{
+  "page": "Ingredients",
+  "url": "https://schedule-1.fandom.com/wiki/Ingredients",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "level": 0,
+      "content": [
+        {
+          "text": "These are ingredients obtained at the Gas-Mart and used to mix with drugs to change effects, value and addictiveness of the drugs."
+        }
+      ],
+      "lists": [],
+      "tables": [
+        {
+          "headers": [
+            "Image",
+            "Name",
+            "Price",
+            "Reputation Requirement",
+            "Description",
+            "Base Effect",
+            "Effect Replacements"
+          ],
+          "rows": [
+            {
+              "Image": "",
+              "Name": "Cuke",
+              "Price": "$2",
+              "Reputation Requirement": "Street rat I",
+              "Description": "A refreshing can of Cuke that leaves you feeling energized. It's heaven in a can.",
+              "Base Effect": "Energizing",
+              "Effect Replacements": "Euphoric → LaxativeFoggy → CyclopeanGingeritis → Thought-ProvokingMunchies → AthleticSlippery → MunchiesSneaky → ParanoiaToxic → Euphoric"
+            },
+            {
+              "Image": "",
+              "Name": "Banana",
+              "Price": "$2",
+              "Reputation Requirement": "Street rat I",
+              "Description": "Elongated yellow fruit, rich in potassium.",
+              "Base Effect": "Gingeritis",
+              "Effect Replacements": "Calming → SneakyCyclopean → Thought-ProvokingDisorienting → FocusedEnergizing → Thought-ProvokingFocused → Seizure-InducingLong Faced → RefreshingParanoia → JennerisingSmelly → Anti-GravityToxic → Smelly"
+            },
+            {
+              "Image": "",
+              "Name": "Paracetamol",
+              "Price": "$3",
+              "Reputation Requirement": "Street rat I",
+              "Description": "Mild over-the-counter painkiller.",
+              "Base Effect": "Sneaky",
+              "Effect Replacements": "Calming → SlipperyElectrifying → AthleticEnergizing → ParanoiaFocused → GingeritisFoggy → CalmingGlowing → ToxicMunchies → Anti-GravityParanoia → BaldingSpicy → Bright-EyedToxic → Tropic Thunder"
+            },
+            {
+              "Image": "",
+              "Name": "Donut",
+              "Price": "$3",
+              "Reputation Requirement": "Street rat I",
+              "Description": "Yummy strawberry frosted donut.",
+              "Base Effect": "Calorie-Dense",
+              "Effect Replacements": "Anti-Gravity → SlipperyBalding → SneakyCalorie-Dense → ExplosiveFocused → EuphoricJennerising → GingeritisMunchies → CalmingShrinking → Energizing"
+            },
+            {
+              "Image": "",
+              "Name": "Viagor",
+              "Price": "$4",
+              "Reputation Requirement": "Hoodlum II",
+              "Description": "Medication that is used to get you chubbed-up.",
+              "Base Effect": "Tropic Thunder",
+              "Effect Replacements": "Athletic → SneakyDisorienting → ToxicEuphoric → Bright-EyedLaxative → CalmingShrinking → Gingeritis"
+            },
+            {
+              "Image": "",
+              "Name": "Mouth Wash",
+              "Price": "$4",
+              "Reputation Requirement": "Hoodlum III",
+              "Description": "Antiseptic mouth wash for a minty fresh breath.",
+              "Base Effect": "Balding",
+              "Effect Replacements": "Calming → Anti-GravityCalorie-Dense → SneakyExplosive → SedatingFocused → Jennerising"
+            },
+            {
+              "Image": "",
+              "Name": "Flu Medicine",
+              "Price": "$5",
+              "Reputation Requirement": "Hoodlum IV",
+              "Description": "Pain reliever and Mild sedative used to alleviate flu symptoms.",
+              "Base Effect": "Sedating",
+              "Effect Replacements": "Athletic → MunchiesCalming → Bright-EyedCyclopean → FoggyElectrifying → RefreshingEuphoric → ToxicFocused → CalmingLaxative → EuphoricMunchies → SlipperyShrinking → ParanoiaThought-Provoking → Gingeritis"
+            },
+            {
+              "Image": "",
+              "Name": "Gasoline",
+              "Price": "$5",
+              "Reputation Requirement": "Hoodlum V",
+              "Description": "A jerry can full of gasoline.",
+              "Base Effect": "Toxic",
+              "Effect Replacements": "Disorienting → GlowingElectrifying → DisorientingEnergizing → EuphoricEuphoric → SpicyGingeritis → SmellyJennerising → SneakyLaxative → FoggyMunchies → SedatingParanoia → CalmingShrinking → FocusedSneaky → Tropic Thunder"
+            },
+            {
+              "Image": "",
+              "Name": "Energy Drink",
+              "Price": "$6",
+              "Reputation Requirement": "Peddler I",
+              "Description": "Tasty energy drink filled with lots of yummy chemicals to make you feel refreshed. Removes the effects of drugs when consumed.",
+              "Base Effect": "Athletic",
+              "Effect Replacements": "Disorienting → ElectrifyingEuphoric → EnergizingFocused → ShrinkingFoggy → LaxativeGlowing → DisorientingSchizophrenic → BaldingSedating → MunchiesSpicy → EuphoricTropic Thunder → Sneaky"
+            },
+            {
+              "Image": "",
+              "Name": "Motor Oil",
+              "Price": "$6",
+              "Reputation Requirement": "Peddler II",
+              "Description": "Specially formulated oil used for lubricating the moving stuff in an engine.",
+              "Base Effect": "Slippery",
+              "Effect Replacements": "Energizing → MunchiesEuphoric → SedatingFoggy → ToxicMunchies → SchizophrenicParanoia → Anti-Gravity"
+            },
+            {
+              "Image": "",
+              "Name": "Mega Bean",
+              "Price": "$7",
+              "Reputation Requirement": "Peddler III",
+              "Description": "An unusually large bean of mysterious origin.",
+              "Base Effect": "Foggy",
+              "Effect Replacements": "Athletic → LaxativeCalming → GlowingEnergizing → CyclopeanFocused → DisorientingJennerising → ParanoiaSeizure-Inducing → FocusedShrinking → ElectrifyingSlippery → ToxicSneaky → CalmingThought-Provoking → Energizing"
+            },
+            {
+              "Image": "",
+              "Name": "Chili",
+              "Price": "$7",
+              "Reputation Requirement": "Peddler IV",
+              "Description": "Yummy spicy chili.",
+              "Base Effect": "Spicy",
+              "Effect Replacements": "Anti-Gravity → Tropic ThunderAthletic → EuphoricLaxative → Long FacedMunchies → ToxicShrinking → RefreshingSneaky → Bright-Eyed"
+            },
+            {
+              "Image": "",
+              "Name": "Battery",
+              "Price": "$8",
+              "Reputation Requirement": "Peddler V",
+              "Description": "Small battery used to power stuff.",
+              "Base Effect": "Bright-Eyed",
+              "Effect Replacements": "Cyclopean → GlowingElectrifying → EuphoricEuphoric → ZombifyingLaxative → Calorie-DenseMunchies → Tropic ThunderShrinking → Munchies"
+            },
+            {
+              "Image": "",
+              "Name": "Iodine",
+              "Price": "$8",
+              "Reputation Requirement": "Hustler I",
+              "Description": "Chemical element that is an essential nutrient in a healthy diet. It also has other purposes.",
+              "Base Effect": "Jennerising",
+              "Effect Replacements": "Calming → BaldingCalorie-Dense → GingeritisEuphoric → Seizure-InducingFoggy → ParanoiaRefreshing → Thought-ProvokingToxic → Sneaky"
+            },
+            {
+              "Image": "",
+              "Name": "Addy",
+              "Price": "$9",
+              "Reputation Requirement": "Hustler II",
+              "Description": "Like meth except legal. Used to stimulate cognition.",
+              "Base Effect": "Thought-Provoking",
+              "Effect Replacements": "Explosive → EuphoricFoggy → EnergizingGlowing → RefreshingLong Faced → ElectrifyingSedating → Gingeritis"
+            },
+            {
+              "Image": "censored version to fit TOS of FANDOM",
+              "Name": "Horse Semen",
+              "Price": "$9",
+              "Reputation Requirement": "Hustler III",
+              "Description": "A big jug of ethically sourced horse semen.",
+              "Base Effect": "Long Faced",
+              "Effect Replacements": "Anti-Gravity → CalmingGingeritis → RefreshingThought-Provoking → ElectrifyingSeizure-Inducing → Energizing"
+            }
+          ],
+          "section": "Introduction"
+        }
+      ]
+    }
+  ],
+  "related_links": [
+    {
+      "text": "Gas-Mart",
+      "href": "/wiki/Gas-Mart"
+    },
+    {
+      "text": "mix",
+      "href": "/wiki/Mixing"
+    },
+    {
+      "text": "Cuke",
+      "href": "/wiki/Cuke"
+    },
+    {
+      "text": "Street rat I",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Banana",
+      "href": "/wiki/Banana"
+    },
+    {
+      "text": "Paracetamol",
+      "href": "/wiki/Paracetamol"
+    },
+    {
+      "text": "Donut",
+      "href": "/wiki/Donut"
+    },
+    {
+      "text": "Hoodlum II",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Hoodlum III",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Hoodlum IV",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Gasoline",
+      "href": "/wiki/Gasoline"
+    },
+    {
+      "text": "Hoodlum V",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Energy Drink",
+      "href": "/wiki/Energy_Drink"
+    },
+    {
+      "text": "Peddler I",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Peddler II",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Peddler III",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Peddler IV",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Peddler V",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Hustler I",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Hustler II",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Horse Semen",
+      "href": "/wiki/Horse-semen"
+    },
+    {
+      "text": "Hustler III",
+      "href": "/wiki/Ranks"
+    }
+  ],
+  "all_tables": [
+    {
+      "headers": [
+        "Image",
+        "Name",
+        "Price",
+        "Reputation Requirement",
+        "Description",
+        "Base Effect",
+        "Effect Replacements"
+      ],
+      "rows": [
+        {
+          "Image": "",
+          "Name": "Cuke",
+          "Price": "$2",
+          "Reputation Requirement": "Street rat I",
+          "Description": "A refreshing can of Cuke that leaves you feeling energized. It's heaven in a can.",
+          "Base Effect": "Energizing",
+          "Effect Replacements": "Euphoric → LaxativeFoggy → CyclopeanGingeritis → Thought-ProvokingMunchies → AthleticSlippery → MunchiesSneaky → ParanoiaToxic → Euphoric"
+        },
+        {
+          "Image": "",
+          "Name": "Banana",
+          "Price": "$2",
+          "Reputation Requirement": "Street rat I",
+          "Description": "Elongated yellow fruit, rich in potassium.",
+          "Base Effect": "Gingeritis",
+          "Effect Replacements": "Calming → SneakyCyclopean → Thought-ProvokingDisorienting → FocusedEnergizing → Thought-ProvokingFocused → Seizure-InducingLong Faced → RefreshingParanoia → JennerisingSmelly → Anti-GravityToxic → Smelly"
+        },
+        {
+          "Image": "",
+          "Name": "Paracetamol",
+          "Price": "$3",
+          "Reputation Requirement": "Street rat I",
+          "Description": "Mild over-the-counter painkiller.",
+          "Base Effect": "Sneaky",
+          "Effect Replacements": "Calming → SlipperyElectrifying → AthleticEnergizing → ParanoiaFocused → GingeritisFoggy → CalmingGlowing → ToxicMunchies → Anti-GravityParanoia → BaldingSpicy → Bright-EyedToxic → Tropic Thunder"
+        },
+        {
+          "Image": "",
+          "Name": "Donut",
+          "Price": "$3",
+          "Reputation Requirement": "Street rat I",
+          "Description": "Yummy strawberry frosted donut.",
+          "Base Effect": "Calorie-Dense",
+          "Effect Replacements": "Anti-Gravity → SlipperyBalding → SneakyCalorie-Dense → ExplosiveFocused → EuphoricJennerising → GingeritisMunchies → CalmingShrinking → Energizing"
+        },
+        {
+          "Image": "",
+          "Name": "Viagor",
+          "Price": "$4",
+          "Reputation Requirement": "Hoodlum II",
+          "Description": "Medication that is used to get you chubbed-up.",
+          "Base Effect": "Tropic Thunder",
+          "Effect Replacements": "Athletic → SneakyDisorienting → ToxicEuphoric → Bright-EyedLaxative → CalmingShrinking → Gingeritis"
+        },
+        {
+          "Image": "",
+          "Name": "Mouth Wash",
+          "Price": "$4",
+          "Reputation Requirement": "Hoodlum III",
+          "Description": "Antiseptic mouth wash for a minty fresh breath.",
+          "Base Effect": "Balding",
+          "Effect Replacements": "Calming → Anti-GravityCalorie-Dense → SneakyExplosive → SedatingFocused → Jennerising"
+        },
+        {
+          "Image": "",
+          "Name": "Flu Medicine",
+          "Price": "$5",
+          "Reputation Requirement": "Hoodlum IV",
+          "Description": "Pain reliever and Mild sedative used to alleviate flu symptoms.",
+          "Base Effect": "Sedating",
+          "Effect Replacements": "Athletic → MunchiesCalming → Bright-EyedCyclopean → FoggyElectrifying → RefreshingEuphoric → ToxicFocused → CalmingLaxative → EuphoricMunchies → SlipperyShrinking → ParanoiaThought-Provoking → Gingeritis"
+        },
+        {
+          "Image": "",
+          "Name": "Gasoline",
+          "Price": "$5",
+          "Reputation Requirement": "Hoodlum V",
+          "Description": "A jerry can full of gasoline.",
+          "Base Effect": "Toxic",
+          "Effect Replacements": "Disorienting → GlowingElectrifying → DisorientingEnergizing → EuphoricEuphoric → SpicyGingeritis → SmellyJennerising → SneakyLaxative → FoggyMunchies → SedatingParanoia → CalmingShrinking → FocusedSneaky → Tropic Thunder"
+        },
+        {
+          "Image": "",
+          "Name": "Energy Drink",
+          "Price": "$6",
+          "Reputation Requirement": "Peddler I",
+          "Description": "Tasty energy drink filled with lots of yummy chemicals to make you feel refreshed. Removes the effects of drugs when consumed.",
+          "Base Effect": "Athletic",
+          "Effect Replacements": "Disorienting → ElectrifyingEuphoric → EnergizingFocused → ShrinkingFoggy → LaxativeGlowing → DisorientingSchizophrenic → BaldingSedating → MunchiesSpicy → EuphoricTropic Thunder → Sneaky"
+        },
+        {
+          "Image": "",
+          "Name": "Motor Oil",
+          "Price": "$6",
+          "Reputation Requirement": "Peddler II",
+          "Description": "Specially formulated oil used for lubricating the moving stuff in an engine.",
+          "Base Effect": "Slippery",
+          "Effect Replacements": "Energizing → MunchiesEuphoric → SedatingFoggy → ToxicMunchies → SchizophrenicParanoia → Anti-Gravity"
+        },
+        {
+          "Image": "",
+          "Name": "Mega Bean",
+          "Price": "$7",
+          "Reputation Requirement": "Peddler III",
+          "Description": "An unusually large bean of mysterious origin.",
+          "Base Effect": "Foggy",
+          "Effect Replacements": "Athletic → LaxativeCalming → GlowingEnergizing → CyclopeanFocused → DisorientingJennerising → ParanoiaSeizure-Inducing → FocusedShrinking → ElectrifyingSlippery → ToxicSneaky → CalmingThought-Provoking → Energizing"
+        },
+        {
+          "Image": "",
+          "Name": "Chili",
+          "Price": "$7",
+          "Reputation Requirement": "Peddler IV",
+          "Description": "Yummy spicy chili.",
+          "Base Effect": "Spicy",
+          "Effect Replacements": "Anti-Gravity → Tropic ThunderAthletic → EuphoricLaxative → Long FacedMunchies → ToxicShrinking → RefreshingSneaky → Bright-Eyed"
+        },
+        {
+          "Image": "",
+          "Name": "Battery",
+          "Price": "$8",
+          "Reputation Requirement": "Peddler V",
+          "Description": "Small battery used to power stuff.",
+          "Base Effect": "Bright-Eyed",
+          "Effect Replacements": "Cyclopean → GlowingElectrifying → EuphoricEuphoric → ZombifyingLaxative → Calorie-DenseMunchies → Tropic ThunderShrinking → Munchies"
+        },
+        {
+          "Image": "",
+          "Name": "Iodine",
+          "Price": "$8",
+          "Reputation Requirement": "Hustler I",
+          "Description": "Chemical element that is an essential nutrient in a healthy diet. It also has other purposes.",
+          "Base Effect": "Jennerising",
+          "Effect Replacements": "Calming → BaldingCalorie-Dense → GingeritisEuphoric → Seizure-InducingFoggy → ParanoiaRefreshing → Thought-ProvokingToxic → Sneaky"
+        },
+        {
+          "Image": "",
+          "Name": "Addy",
+          "Price": "$9",
+          "Reputation Requirement": "Hustler II",
+          "Description": "Like meth except legal. Used to stimulate cognition.",
+          "Base Effect": "Thought-Provoking",
+          "Effect Replacements": "Explosive → EuphoricFoggy → EnergizingGlowing → RefreshingLong Faced → ElectrifyingSedating → Gingeritis"
+        },
+        {
+          "Image": "censored version to fit TOS of FANDOM",
+          "Name": "Horse Semen",
+          "Price": "$9",
+          "Reputation Requirement": "Hustler III",
+          "Description": "A big jug of ethically sourced horse semen.",
+          "Base Effect": "Long Faced",
+          "Effect Replacements": "Anti-Gravity → CalmingGingeritis → RefreshingThought-Provoking → ElectrifyingSeizure-Inducing → Energizing"
+        }
+      ],
+      "section": "Introduction"
+    }
+  ]
+}

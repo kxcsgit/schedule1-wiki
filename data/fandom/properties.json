@@ -1,0 +1,448 @@
+{
+  "page": "Properties",
+  "url": "https://schedule-1.fandom.com/wiki/Properties",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "level": 0,
+      "content": [
+        {
+          "text": "There are multiple available properties to obtain or purchase with cash (in some cases) or Online Balance at Ray's Realty. Some properties are free."
+        },
+        {
+          "text": "It is worth noting that Businesses also have small, but usable buildable areas that can also be used for a small amount of storage or crafting. They do not provide any water sources or Loading Docks and can not have Employees."
+        },
+        {
+          "text": "All Properties and Businesses have a Base Starting Temperature of 20°C, or 68°F. The Sewer Office is 10°C, or 50°F. This means Marijuana and Coca plants grow slower in the Sewer Office without an AC Unit set to Heat, but Shrooms can grow there without the AC Unit. See AC Unit for more info on Temperature."
+        }
+      ],
+      "lists": [],
+      "tables": []
+    },
+    {
+      "heading": "Properties[]",
+      "level": 2,
+      "content": [
+        {
+          "text": "will become inaccessible after \ncollecting the 3 cash dead drops \nat the beginning of the game."
+        },
+        {
+          "text": "(or \"The Throne Room\")"
+        },
+        {
+          "text": "But it is a one-time payment."
+        },
+        {
+          "text": "the Finishing the Job quest."
+        }
+      ],
+      "lists": [],
+      "tables": [
+        {
+          "headers": [
+            "Image",
+            "Name",
+            "Price",
+            "Location",
+            "Size",
+            "Loading Bays",
+            "Employee Limit",
+            "Note"
+          ],
+          "rows": [
+            {
+              "Image": "",
+              "Name": "RV",
+              "Price": "Free",
+              "Location": "Woods, South-West",
+              "Size": "32 tiles",
+              "Loading Bays": "0",
+              "Employee Limit": "0",
+              "Note": "The RV is only temporary and\nwill become inaccessible after \ncollecting the 3 cash dead drops \nat the beginning of the game."
+            }
+          ],
+          "section": "Properties[]"
+        },
+        {
+          "headers": [
+            "Image",
+            "Name",
+            "Price",
+            "Location",
+            "Size",
+            "Loading Bays",
+            "Employee Limit",
+            "Note"
+          ],
+          "rows": [
+            {
+              "Image": "",
+              "Name": "Maintenance Office,\n(or \"The Throne Room\")",
+              "Price": "Free",
+              "Location": "The Sewers",
+              "Size": "179 tiles",
+              "Loading Bays": "0",
+              "Employee Limit": "0",
+              "Note": "This property can grow Shrooms without an AC Unit."
+            }
+          ],
+          "section": "Properties[]"
+        },
+        {
+          "headers": [
+            "Image",
+            "Name",
+            "Price",
+            "Location",
+            "Size",
+            "Loading Bays",
+            "Employee Limit",
+            "Note"
+          ],
+          "rows": [
+            {
+              "Image": "",
+              "Name": "Motel Room",
+              "Price": "$75",
+              "Location": "Northtown",
+              "Size": "94 tiles",
+              "Loading Bays": "0",
+              "Employee Limit": "0",
+              "Note": "Donna will say the price is \"$75 for the week\",\nBut it is a one-time payment."
+            },
+            {
+              "Image": "",
+              "Name": "Sweatshop",
+              "Price": "$800",
+              "Location": "Northtown",
+              "Size": "148 tiles",
+              "Loading Bays": "0",
+              "Employee Limit": "1",
+              "Note": ""
+            }
+          ],
+          "section": "Properties[]"
+        },
+        {
+          "headers": [
+            "Image",
+            "Name",
+            "Price",
+            "Location",
+            "Size",
+            "Loading Bays",
+            "Employee Limit",
+            "Note"
+          ],
+          "rows": [
+            {
+              "Image": "",
+              "Name": "Storage Unit",
+              "Price": "$4,000",
+              "Location": "Northtown",
+              "Size": "178 tiles",
+              "Loading Bays": "1",
+              "Employee Limit": "3",
+              "Note": ""
+            },
+            {
+              "Image": "",
+              "Name": "Bungalow",
+              "Price": "$6,000",
+              "Location": "Westville",
+              "Size": "398 tiles",
+              "Loading Bays": "1",
+              "Employee Limit": "5",
+              "Note": ""
+            },
+            {
+              "Image": "",
+              "Name": "Barn",
+              "Price": "$25,000",
+              "Location": "Woods, East",
+              "Size": "1,211 tiles",
+              "Loading Bays": "2",
+              "Employee Limit": "10",
+              "Note": ""
+            },
+            {
+              "Image": "",
+              "Name": "Docks Warehouse",
+              "Price": "$50,000",
+              "Location": "Docks",
+              "Size": "1,429 tiles",
+              "Loading Bays": "2",
+              "Employee Limit": "12",
+              "Note": ""
+            },
+            {
+              "Image": "",
+              "Name": "Hyland Manor",
+              "Price": "$250,000",
+              "Location": "Suburbia",
+              "Size": "1,753 tiles",
+              "Loading Bays": "3",
+              "Employee Limit": "12",
+              "Note": "Only available after after completing\nthe Finishing the Job quest."
+            }
+          ],
+          "section": "Properties[]"
+        }
+      ]
+    }
+  ],
+  "related_links": [
+    {
+      "text": "Ray's Realty",
+      "href": "/wiki/Ray%27s_Realty"
+    },
+    {
+      "text": "Businesses",
+      "href": "/wiki/Businesses"
+    },
+    {
+      "text": "Employees",
+      "href": "/wiki/Employees"
+    },
+    {
+      "text": "Sewer Office",
+      "href": "/wiki/Maintenance_Office"
+    },
+    {
+      "text": "Marijuana",
+      "href": "/wiki/Marijuana"
+    },
+    {
+      "text": "Coca",
+      "href": "/wiki/Cocaine"
+    },
+    {
+      "text": "AC Unit",
+      "href": "/wiki/AC_Unit"
+    },
+    {
+      "text": "Shrooms",
+      "href": "/wiki/Shrooms"
+    },
+    {
+      "text": "RV",
+      "href": "/wiki/RV"
+    },
+    {
+      "text": "Maintenance Office",
+      "href": "/wiki/Maintenance_Office"
+    },
+    {
+      "text": "The Sewers",
+      "href": "/wiki/The_Sewers"
+    },
+    {
+      "text": "NPCs",
+      "href": "/wiki/NPCs"
+    },
+    {
+      "text": "Motel Room",
+      "href": "/wiki/Motel_Room"
+    },
+    {
+      "text": "Northtown",
+      "href": "/wiki/Northtown"
+    },
+    {
+      "text": "Donna",
+      "href": "/wiki/Donna_Martin"
+    },
+    {
+      "text": "Sweatshop",
+      "href": "/wiki/Sweatshop"
+    },
+    {
+      "text": "Storage Unit",
+      "href": "/wiki/Storage_Unit"
+    },
+    {
+      "text": "Bungalow",
+      "href": "/wiki/Bungalow"
+    },
+    {
+      "text": "Westville",
+      "href": "/wiki/Westville"
+    },
+    {
+      "text": "Barn",
+      "href": "/wiki/The_Barn"
+    },
+    {
+      "text": "Docks Warehouse",
+      "href": "/wiki/The_Docks_Warehouse"
+    },
+    {
+      "text": "Docks",
+      "href": "/wiki/Docks"
+    },
+    {
+      "text": "Hyland Manor",
+      "href": "/wiki/Hyland_Manor"
+    },
+    {
+      "text": "Suburbia",
+      "href": "/wiki/Suburbia"
+    },
+    {
+      "text": "Finishing the Job",
+      "href": "/wiki/Finishing_the_Job"
+    }
+  ],
+  "all_tables": [
+    {
+      "headers": [
+        "Image",
+        "Name",
+        "Price",
+        "Location",
+        "Size",
+        "Loading Bays",
+        "Employee Limit",
+        "Note"
+      ],
+      "rows": [
+        {
+          "Image": "",
+          "Name": "RV",
+          "Price": "Free",
+          "Location": "Woods, South-West",
+          "Size": "32 tiles",
+          "Loading Bays": "0",
+          "Employee Limit": "0",
+          "Note": "The RV is only temporary and\nwill become inaccessible after \ncollecting the 3 cash dead drops \nat the beginning of the game."
+        }
+      ],
+      "section": "Properties[]"
+    },
+    {
+      "headers": [
+        "Image",
+        "Name",
+        "Price",
+        "Location",
+        "Size",
+        "Loading Bays",
+        "Employee Limit",
+        "Note"
+      ],
+      "rows": [
+        {
+          "Image": "",
+          "Name": "Maintenance Office,\n(or \"The Throne Room\")",
+          "Price": "Free",
+          "Location": "The Sewers",
+          "Size": "179 tiles",
+          "Loading Bays": "0",
+          "Employee Limit": "0",
+          "Note": "This property can grow Shrooms without an AC Unit."
+        }
+      ],
+      "section": "Properties[]"
+    },
+    {
+      "headers": [
+        "Image",
+        "Name",
+        "Price",
+        "Location",
+        "Size",
+        "Loading Bays",
+        "Employee Limit",
+        "Note"
+      ],
+      "rows": [
+        {
+          "Image": "",
+          "Name": "Motel Room",
+          "Price": "$75",
+          "Location": "Northtown",
+          "Size": "94 tiles",
+          "Loading Bays": "0",
+          "Employee Limit": "0",
+          "Note": "Donna will say the price is \"$75 for the week\",\nBut it is a one-time payment."
+        },
+        {
+          "Image": "",
+          "Name": "Sweatshop",
+          "Price": "$800",
+          "Location": "Northtown",
+          "Size": "148 tiles",
+          "Loading Bays": "0",
+          "Employee Limit": "1",
+          "Note": ""
+        }
+      ],
+      "section": "Properties[]"
+    },
+    {
+      "headers": [
+        "Image",
+        "Name",
+        "Price",
+        "Location",
+        "Size",
+        "Loading Bays",
+        "Employee Limit",
+        "Note"
+      ],
+      "rows": [
+        {
+          "Image": "",
+          "Name": "Storage Unit",
+          "Price": "$4,000",
+          "Location": "Northtown",
+          "Size": "178 tiles",
+          "Loading Bays": "1",
+          "Employee Limit": "3",
+          "Note": ""
+        },
+        {
+          "Image": "",
+          "Name": "Bungalow",
+          "Price": "$6,000",
+          "Location": "Westville",
+          "Size": "398 tiles",
+          "Loading Bays": "1",
+          "Employee Limit": "5",
+          "Note": ""
+        },
+        {
+          "Image": "",
+          "Name": "Barn",
+          "Price": "$25,000",
+          "Location": "Woods, East",
+          "Size": "1,211 tiles",
+          "Loading Bays": "2",
+          "Employee Limit": "10",
+          "Note": ""
+        },
+        {
+          "Image": "",
+          "Name": "Docks Warehouse",
+          "Price": "$50,000",
+          "Location": "Docks",
+          "Size": "1,429 tiles",
+          "Loading Bays": "2",
+          "Employee Limit": "12",
+          "Note": ""
+        },
+        {
+          "Image": "",
+          "Name": "Hyland Manor",
+          "Price": "$250,000",
+          "Location": "Suburbia",
+          "Size": "1,753 tiles",
+          "Loading Bays": "3",
+          "Employee Limit": "12",
+          "Note": "Only available after after completing\nthe Finishing the Job quest."
+        }
+      ],
+      "section": "Properties[]"
+    }
+  ]
+}

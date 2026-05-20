@@ -1,0 +1,62 @@
+{
+  "Drugs": {
+    "status": "http_403"
+  },
+  "Ingredients": {
+    "status": "http_403"
+  },
+  "Properties": {
+    "status": "http_403"
+  },
+  "Achievements": {
+    "status": "http_403"
+  },
+  "Mixing": {
+    "status": "http_403"
+  },
+  "Customers": {
+    "status": "http_403"
+  },
+  "NPCs": {
+    "status": "http_403"
+  },
+  "Maps": {
+    "status": "http_403"
+  },
+  "Items": {
+    "status": "http_403"
+  },
+  "Weapons": {
+    "status": "http_403"
+  },
+  "Equipment": {
+    "status": "http_403"
+  },
+  "Dealers": {
+    "status": "http_403"
+  },
+  "Stashes": {
+    "status": "http_403"
+  },
+  "Businesses": {
+    "status": "http_403"
+  },
+  "Vehicles": {
+    "status": "http_403"
+  },
+  "Quests": {
+    "status": "http_403"
+  },
+  "Effects": {
+    "status": "http_403"
+  },
+  "Quality": {
+    "status": "http_403"
+  },
+  "Prices": {
+    "status": "http_403"
+  },
+  "Addiction": {
+    "status": "http_403"
+  }
+}

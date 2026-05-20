@@ -1,0 +1,1882 @@
+{
+  "page": "Drugs",
+  "url": "https://schedule-1.fandom.com/wiki/Drugs",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "level": 2,
+      "content": [],
+      "lists": [
+        [
+          {
+            "text": "1 Drugs\n\n1.1 Marijuana"
+          },
+          {
+            "text": "1.2 Methamphetamine"
+          },
+          {
+            "text": "1.3 Shrooms"
+          },
+          {
+            "text": "1.4 Cocaine"
+          }
+        ],
+        [
+          {
+            "text": "2.1 Personal Use"
+          },
+          {
+            "text": "2.2 What Product To Sell"
+          },
+          {
+            "text": "2.3 Best Mixing Recipes\n\n2.3.1 Marijuana"
+          },
+          {
+            "text": "2.3.2 Methamphetamine"
+          },
+          {
+            "text": "2.3.3 Cocaine"
+          }
+        ]
+      ],
+      "tables": []
+    },
+    {
+      "heading": "Marijuana[]",
+      "level": 3,
+      "content": [
+        {
+          "text": "The first available drug is marijuana, which is unlocked right at the start of Schedule I. There are 4 different strains of marijuana in the game. You can order the seeds for all the marijuana strains from Albert Hoover by sending him a text message. From there, the seeds can be grown and harvested into sellable product. New strains can be mixed with a Mixing Station or Mixing Station Mk2, an ingredient and any of the 4 already existing strains. You can buy the ingredients from both Gas-Marts."
+        },
+        {
+          "text": "At the very start of Schedule I only the first strain OG Kush is unlocked and can be ordered from Albert Hoover. But later with gaining XP and unlocking new levels the other 3 strains can be unlocked purchased. The required ranks for the seeds can be seen down below. The seeds can be paid for by depositing money into Albert Hoover‘s stash which is located behind Dan‘s Hardware store in Northtown."
+        }
+      ],
+      "lists": [
+        [
+          {
+            "text": "↑ Unlocked immediately"
+          }
+        ]
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Product",
+            "Precursors"
+          ],
+          "rows": [
+            {
+              "Product": "Image",
+              "Precursors": "Name",
+              "col_2": "Value",
+              "col_3": "Effect",
+              "col_4": "Image",
+              "col_5": "Name",
+              "col_6": "Rank"
+            },
+            {
+              "Product": "",
+              "Precursors": "OG Kush",
+              "col_2": "$38",
+              "col_3": "Calming",
+              "col_4": "",
+              "col_5": "OG Kush Seed",
+              "col_6": "Street Rat I&#91;1&#93;"
+            },
+            {
+              "Product": "",
+              "Precursors": "Sour Diesel",
+              "col_2": "$40",
+              "col_3": "Refreshing",
+              "col_4": "",
+              "col_5": "Sour Diesel Seed",
+              "col_6": "Street Rat IV"
+            },
+            {
+              "Product": "",
+              "Precursors": "Green Crack",
+              "col_2": "$43",
+              "col_3": "Energizing",
+              "col_4": "",
+              "col_5": "Green Crack Seed",
+              "col_6": "Hoodlum II"
+            },
+            {
+              "Product": "",
+              "Precursors": "Granddaddy Purple",
+              "col_2": "$44",
+              "col_3": "Sedating",
+              "col_4": "",
+              "col_5": "Granddaddy Purple Seed",
+              "col_6": "Hoodlum IV"
+            }
+          ],
+          "section": "Marijuana[]"
+        }
+      ]
+    },
+    {
+      "heading": "Methamphetamine[]",
+      "level": 3,
+      "content": [
+        {
+          "text": "To unlock the second drug in the game, methamphetamine the player needs to gain a friendly relationship with one of Shirley Watts contacts, who will then introduce you to Shirley Watts. Shirley Watts contacts are Jerry Montero and Meg Cooley. Shirley is the second supplier in Schedule I. You can order 3 different qualities of pseudo from her."
+        },
+        {
+          "text": "The meth production process takes much longer than that of marijuana. To cook meth you need to purchase a Chemistry Station, a Lab Oven, Acid and Phosphorus, which you can get from Oscar in the Warehouse. Then you need to order pseudo from Shirley Watts. When arrived, place all of the ingredients bought in the Chemistry Station, mix them together and set the temperature. After 8 hours the process is done and you get Liquid Meth. Place the Liquid Meth in a Lab Oven."
+        }
+      ],
+      "lists": [],
+      "tables": [
+        {
+          "headers": [
+            "Product",
+            "Precursors"
+          ],
+          "rows": [
+            {
+              "Product": "Image",
+              "Precursors": "Name",
+              "col_2": "Value",
+              "col_3": "Effect"
+            },
+            {
+              "Product": "",
+              "Precursors": "Methamphetamine",
+              "col_2": "$70",
+              "col_3": "None"
+            }
+          ],
+          "section": "Methamphetamine[]"
+        },
+        {
+          "headers": [
+            "Image",
+            "Name",
+            "Rank"
+          ],
+          "rows": [
+            {
+              "Image": "",
+              "Name": "Acid",
+              "Rank": "Hoodlum I"
+            },
+            {
+              "Image": "",
+              "Name": "Phosphorus",
+              "Rank": "Hoodlum I"
+            },
+            {
+              "Image": "",
+              "Name": "Low-Quality Pseudo",
+              "Rank": "Hoodlum I"
+            },
+            {
+              "Image": "",
+              "Name": "Pseudo",
+              "Rank": "Hustler III"
+            },
+            {
+              "Image": "",
+              "Name": "High-Quality Pseudo",
+              "Rank": "Bagman V"
+            },
+            {
+              "Image": "",
+              "Name": "Liquid Meth",
+              "Rank": "Hoodlum I"
+            }
+          ],
+          "section": "Methamphetamine[]"
+        }
+      ]
+    },
+    {
+      "heading": "Shrooms[]",
+      "level": 3,
+      "content": [
+        {
+          "text": "Magic Mushrooms are the third major drug type introduced to the game, becoming available after methamphetamine production is established and before cocaine is unlocked. To begin production, the player must progress to the Downtown region and unlock Fungal Phil for fungal spores and substrate."
+        },
+        {
+          "text": "Mushroom cultivation introduces the Temperature System. Unlike other plants that benefit from heat, mushrooms require a cool environment to fruit. Players must use AC Units to lower the room temperature and a Spray Bottle to maintain moisture levels in the beds. Additionally, wild shrooms can occasionally be found spawning within the Sewer system."
+        },
+        {
+          "text": "The production process involves two main stages:"
+        }
+      ],
+      "lists": [
+        [
+          {
+            "text": "Inoculation: Using a Mushroom Spawn Station to combine a Spore Syringe and a Grain Bag into Shroom Spawn."
+          },
+          {
+            "text": "Fruiting: Transferring the spawn into a Mushroom Bed prepared with Mushroom Substrate."
+          }
+        ],
+        [
+          {
+            "text": "Mushroom growth speed is negatively impacted by high temperatures; an AC Unit is mandatory for efficient farming."
+          },
+          {
+            "text": "The Management Clipboard can be used to rename individual Mushroom Beds to keep track of different strains or growth cycles."
+          },
+          {
+            "text": "Shrooms were added in the Christmas 2025 update (v0.4.2)."
+          }
+        ]
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Product",
+            "Precursors"
+          ],
+          "rows": [
+            {
+              "Product": "Image",
+              "Precursors": "Name",
+              "col_2": "Value",
+              "col_3": "Effect"
+            },
+            {
+              "Product": "",
+              "Precursors": "Shrooms",
+              "col_2": "$100",
+              "col_3": "None"
+            }
+          ],
+          "section": "Shrooms[]"
+        },
+        {
+          "headers": [
+            "Image",
+            "Name",
+            "Rank"
+          ],
+          "rows": [
+            {
+              "Image": "",
+              "Name": "Spore Syringe",
+              "Rank": "Hustler I"
+            },
+            {
+              "Image": "",
+              "Name": "Grain Bag",
+              "Rank": "Hustler I"
+            },
+            {
+              "Image": "",
+              "Name": "Mushroom Substrate",
+              "Rank": "Hustler I"
+            },
+            {
+              "Image": "",
+              "Name": "Shroom Spawn",
+              "Rank": "Hustler I"
+            }
+          ],
+          "section": "Shrooms[]"
+        }
+      ]
+    },
+    {
+      "heading": "Cocaine[]",
+      "level": 3,
+      "content": [
+        {
+          "text": "Unlocking cocaine production requires advancing to the Docks, the fourth area in the game. Develop a friendly relationship with either Mac Cooper, Javier Perez, or Kelly Reynolds in this region. They will connect you with Salvador Moreno, who supplies Coca seeds necessary for cocaine production."
+        },
+        {
+          "text": "One of the longest processes for creating but with the highest reward, you start by purchasing the coca seeds which are grown in Pots, then drying them on a Drying Rack (optional), they are then mixed with Gasoline before finally being cooked into pure Cocaine. As with the other drugs, Cocaine can also be combined with ingredients for different variants."
+        }
+      ],
+      "lists": [],
+      "tables": [
+        {
+          "headers": [
+            "Product",
+            "Precursors"
+          ],
+          "rows": [
+            {
+              "Product": "Image",
+              "Precursors": "Name",
+              "col_2": "Value",
+              "col_3": "Effect"
+            },
+            {
+              "Product": "",
+              "Precursors": "Cocaine",
+              "col_2": "$150",
+              "col_3": "None"
+            }
+          ],
+          "section": "Cocaine[]"
+        },
+        {
+          "headers": [
+            "Image",
+            "Name",
+            "Rank"
+          ],
+          "rows": [
+            {
+              "Image": "",
+              "Name": "Coca Seed",
+              "Rank": "Enforcer I"
+            },
+            {
+              "Image": "",
+              "Name": "Coca Leaf",
+              "Rank": "Enforcer I"
+            },
+            {
+              "Image": "",
+              "Name": "Cocaine Base",
+              "Rank": "Enforcer I"
+            }
+          ],
+          "section": "Cocaine[]"
+        }
+      ]
+    },
+    {
+      "heading": "Max Profit Strategies[]",
+      "level": 2,
+      "content": [
+        {
+          "text": "The sections below outline various strategies the player an use to maximize profit."
+        },
+        {
+          "text": "The Best Mixing Recipes section contains spoilers, avoid it if you want to learn mixing on your own time."
+        }
+      ],
+      "lists": [],
+      "tables": []
+    },
+    {
+      "heading": "Personal Use[]",
+      "level": 3,
+      "content": [
+        {
+          "text": "The Player can utilize Drugs for their effects. See Personal Drug Use on the Player page. This can help you deliver items more quickly as some mixes will give a speed boost."
+        },
+        {
+          "text": "Remember the golden rule of drug dealing, however: never get high on your own supply."
+        }
+      ],
+      "lists": [],
+      "tables": []
+    },
+    {
+      "heading": "What Product To Sell[]",
+      "level": 3,
+      "content": [
+        {
+          "text": "For personal sales, though Cocaine sells for the most, it isn't necessary to sell it over Meth or Weed. Any product can be produced at a high enough amount and value to be worth it. The main goal isn't to produce the most expensive product, but to drain the daily cash limit of every customer. This can be done with 1 or 2 good Cocaine, 3 or 4 good Meth, or even 5 or 6 good Weed as examples. Results will vary. But you could choose to never produce Cocaine, and make your main product a good mix of simple OG Kush, and you can still drain every dollar from all your customers."
+        },
+        {
+          "text": "For your Dealers, keep in mind dealers don't upsell product or increase amounts. Also keep in mind customers have that price limit they won't go over. Therefore, the Dealer's product should be chosen based on how close the Product's suggested sell value is to the daily spending limit of the Dealer's assigned customers. If the Dealer's Customers have $1,200 a day, and you have Coke at a suggested value of $1,000, Meth at a suggested value of $550, and Weed at a suggested value of $250, the best option is either the Coke to try and get $1,000 of the $1,200, or the Meth, as some sales will be x2 Meth at $550 each, or $1,100 total. You would give more of this Coke to your Uptown dealer, and the Weed to your lower-end dealers."
+        }
+      ],
+      "lists": [],
+      "tables": []
+    },
+    {
+      "heading": "Best Mixing Recipes[]",
+      "level": 3,
+      "content": [
+        {
+          "text": "Below are the best mixing recipes per amount of steps needed, based on a combination of simulated calculations and community efforts. It is worth noting that part of the fun in Schedule 1 is finding mixes yourself. Using the mixes below, or using other 3rd party websites, mods, programs or calculators could take away that entire dimension of fun you could have. So keep that in mind. If you don't mind giving that up, or just don't care, ignore this message completely."
+        },
+        {
+          "text": "If a better mix is found for a certain amount of steps, it should replace the mix below. Mixes are chosen based on Profit first. This is the Asking Price (sell value) with the Ingredient Cost subtracted. The Cost should be considered second, not the Asking Price. If two products have the same profit, but one has higher Cost and Asking Price, the lower Cost mix is the better choice, due to less money being removed from the Bank Balance, as it is just going to be added into the Cash Balance after. In short, prioritizing Cost second means less Laundering, and less of your Weekly Deposit Limit being used."
+        },
+        {
+          "text": "When choosing a mix, there are a couple generally accepted rules-of-thumb to consider. When mixing manually (without workers), it is best to stick with a 2- or 3-step mix, due to the effort and time needed. When automating, the generally accepted best mixes are either a 4-step mix with 1 Chemist, or an 8-step mix with 2 Chemists."
+        },
+        {
+          "text": "For Marijuana, OG Kush currently holds the titles for all known best mixes from 1 to 8 steps, with the exception of 5 Steps, where it is lower than the 5-Mix Green Crack by $0.166 Profit per Bud with seed costs considered, at 1/12th the Seed's cost per Bud, as all pots create 12 Buds per seed at a baseline."
+        },
+        {
+          "text": "A drug that has been mixed with ingredients will have its name randomized."
+        }
+      ],
+      "lists": [],
+      "tables": []
+    },
+    {
+      "heading": "Marijuana[]",
+      "level": 4,
+      "content": [
+        {
+          "text": "SedatingThought ProvokingTropic Thunder"
+        }
+      ],
+      "lists": [],
+      "tables": [
+        {
+          "headers": [
+            "Drug&#91;1&#93;",
+            "Ingredients",
+            "Ingredient\nCost",
+            "Asking\nPrice",
+            "Profit",
+            "Multiplier",
+            "Effects"
+          ],
+          "rows": [
+            {
+              "Drug&#91;1&#93;": "OG Kush",
+              "Ingredients": "Mouth Wash",
+              "Ingredient\nCost": "$4",
+              "Asking\nPrice": "$64",
+              "Profit": "$60",
+              "Multiplier": "x0.84",
+              "Effects": "Anti-GravityBalding"
+            },
+            {
+              "Drug&#91;1&#93;": "OG Kush",
+              "Ingredients": "Cuke +Mega Bean",
+              "Ingredient\nCost": "$9",
+              "Asking\nPrice": "$84",
+              "Profit": "$75",
+              "Multiplier": "x1.4",
+              "Effects": "GlowingCyclopeanFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "OG Kush",
+              "Ingredients": "Cuke +Viagor +Mega Bean",
+              "Ingredient\nCost": "$13",
+              "Asking\nPrice": "$100",
+              "Profit": "$87",
+              "Multiplier": "x1.86",
+              "Effects": "GlowingCyclopeanTropic ThunderFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;2&#93;OG Kush",
+              "Ingredients": "Viagor +Mega Bean +Banana +Cuke",
+              "Ingredient\nCost": "$15",
+              "Asking\nPrice": "$111",
+              "Profit": "$96",
+              "Multiplier": "x2.16",
+              "Effects": "EnergizingThought-ProvokingTropic ThunderGlowingCyclopean"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;3&#93;OG Kush",
+              "Ingredients": "Gasoline +Cuke +Mega Bean +Viagor",
+              "Ingredient\nCost": "$18",
+              "Asking\nPrice": "$114",
+              "Profit": "$96",
+              "Multiplier": "x2.26",
+              "Effects": "GlowingBright-EyedCyclopeanFoggyTropic Thunder"
+            },
+            {
+              "Drug&#91;1&#93;": "OG Kush",
+              "Ingredients": "Cuke +Viagor +Mega Bean +Horse Semen",
+              "Ingredient\nCost": "$22",
+              "Asking\nPrice": "$118",
+              "Profit": "$96",
+              "Multiplier": "x2.38",
+              "Effects": "GlowingCyclopeanTropic ThunderFoggyLong Faced"
+            },
+            {
+              "Drug&#91;1&#93;": "OG Kush",
+              "Ingredients": "Viagor +Gasoline +Cuke +Battery +Mega Bean",
+              "Ingredient\nCost": "$26",
+              "Asking\nPrice": "$134",
+              "Profit": "$108",
+              "Multiplier": "x2.84",
+              "Effects": "GlowingTropic ThunderZombifyingCyclopeanBright-EyedFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "OG Kush",
+              "Ingredients": "Cuke +Viagor +Gasoline +Cuke +Battery +Mega Bean",
+              "Ingredient\nCost": "$28",
+              "Asking\nPrice": "$144",
+              "Profit": "$116",
+              "Multiplier": "x3.12",
+              "Effects": "Calorie-DenseFoggyBright-EyedTropic ThunderGlowingZombifyingCyclopean"
+            },
+            {
+              "Drug&#91;1&#93;": "OG Kush",
+              "Ingredients": "Cuke +Mouth Wash +Gasoline +Cuke +Viagor +Mega Bean",
+              "Ingredient\nCost": "$24",
+              "Asking\nPrice": "$144",
+              "Profit": "$120",
+              "Multiplier": "x3.10",
+              "Effects": "BaldingFoggyBright-EyedTropic ThunderGlowingAnti-GravityCyclopean"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;2&#93;OG Kush",
+              "Ingredients": "Banana +Gasoline +Cuke +Mega Bean +Battery +Banana +Cuke",
+              "Ingredient\nCost": "$28",
+              "Asking\nPrice": "$164",
+              "Profit": "$136",
+              "Multiplier": "x3.14",
+              "Effects": "EnergizingBright-EyedThought-ProvokingTropic ThunderGlowingAnti-GravityCyclopeanZombifying"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;3&#93;OG Kush",
+              "Ingredients": "Banana +Gasoline +Paracetamol +Cuke +Mega Bean +Battery +Banana +Cuke",
+              "Ingredient\nCost": "$31",
+              "Asking\nPrice": "$171",
+              "Profit": "$140",
+              "Multiplier": "x3.88",
+              "Effects": "Tropic ThunderAnti-GravityZombifyingJennerisingGlowingCyclopeanBright-EyedThought-Provoking"
+            },
+            {
+              "Drug&#91;1&#93;": "Sour Diesel",
+              "Ingredients": "Iodine",
+              "Ingredient\nCost": "$8",
+              "Asking\nPrice": "$65",
+              "Profit": "$57",
+              "Multiplier": "x0.86",
+              "Effects": "Thought-ProvokingJennerising"
+            },
+            {
+              "Drug&#91;1&#93;": "Sour Diesel",
+              "Ingredients": "Viagor +Iodine",
+              "Ingredient\nCost": "$12",
+              "Asking\nPrice": "$81",
+              "Profit": "$69",
+              "Multiplier": "x1.32",
+              "Effects": "Thought-ProvokingTropic ThunderJennerising"
+            },
+            {
+              "Drug&#91;1&#93;": "Sour Diesel",
+              "Ingredients": "Viagor +Iodine +Horse Semen",
+              "Ingredient\nCost": "$21",
+              "Asking\nPrice": "$102",
+              "Profit": "$81",
+              "Multiplier": "x1.9",
+              "Effects": "ElectrifyingTropic ThunderJennerisingLong Faced"
+            },
+            {
+              "Drug&#91;1&#93;": "Sour Diesel",
+              "Ingredients": "Cuke +Mega Bean +Iodine +Motor Oil",
+              "Ingredient\nCost": "$23",
+              "Asking\nPrice": "$116",
+              "Profit": "$93",
+              "Multiplier": "x2.3",
+              "Effects": "Thought-ProvokingCyclopeanAnti-GravityJennerisingSlippery"
+            },
+            {
+              "Drug&#91;1&#93;": "Sour Diesel",
+              "Ingredients": "Cuke +Viagor +Mega Bean +Iodine +Motor Oil",
+              "Ingredient\nCost": "$27",
+              "Asking\nPrice": "$132",
+              "Profit": "$105",
+              "Multiplier": "x2.76",
+              "Effects": "Thought-ProvokingCyclopeanTropic ThunderAnti-GravityJennerisingSlippery"
+            },
+            {
+              "Drug&#91;1&#93;": "Sour Diesel",
+              "Ingredients": "Banana +Cuke +Horse Semen +Mega Bean +Iodine +Motor Oil",
+              "Ingredient\nCost": "$34",
+              "Asking\nPrice": "$151",
+              "Profit": "$117",
+              "Multiplier": "x3.32",
+              "Effects": "Thought-ProvokingElectrifyingCyclopeanLong FacedAnti-GravityJennerisingSlippery"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;3&#93;Sour Diesel",
+              "Ingredients": "Banana +Cuke +Horse Semen +Mega Bean +Iodine +Motor Oil +Viagor",
+              "Ingredient\nCost": "$38",
+              "Asking\nPrice": "$167",
+              "Profit": "$129",
+              "Multiplier": "x3.24",
+              "Effects": "Thought-ProvokingElectrifyingCyclopeanLong FacedAnti-GravityJennerisingSlipperyTropic Thunder"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;3&#93;Sour Diesel",
+              "Ingredients": "Paracetamol +Banana +Gasoline +Cuke +Mega Bean +Battery +Banana +Cuke",
+              "Ingredient\nCost": "$31",
+              "Asking\nPrice": "$161",
+              "Profit": "$130",
+              "Multiplier": "x3.06",
+              "Effects": "RefreshingTropic ThunderAnti-GravityZombifyingGlowingCyclopeanBright-EyedThought-Provoking"
+            },
+            {
+              "Drug&#91;1&#93;": "Green Crack",
+              "Ingredients": "Mega Bean",
+              "Ingredient\nCost": "$7",
+              "Asking\nPrice": "$67",
+              "Profit": "$60",
+              "Multiplier": "x0.92",
+              "Effects": "CyclopeanFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "Green Crack",
+              "Ingredients": "Mega Bean +Viagor",
+              "Ingredient\nCost": "$11",
+              "Asking\nPrice": "$83",
+              "Profit": "$72",
+              "Multiplier": "x1.38",
+              "Effects": "CyclopeanFoggyTropic Thunder"
+            },
+            {
+              "Drug&#91;1&#93;": "Green Crack",
+              "Ingredients": "Mega Bean +Viagor +Horse Semen",
+              "Ingredient\nCost": "$20",
+              "Asking\nPrice": "$102",
+              "Profit": "$82",
+              "Multiplier": "x1.9",
+              "Effects": "CyclopeanFoggyTropic ThunderLong Faced"
+            },
+            {
+              "Drug&#91;1&#93;": "Green Crack",
+              "Ingredients": "Banana +Viagor +Horse Semen +Iodine",
+              "Ingredient\nCost": "$23",
+              "Asking\nPrice": "$117",
+              "Profit": "$94",
+              "Multiplier": "x2.34",
+              "Effects": "ElectrifyingThought-ProvokingTropic ThunderLong FacedJennerising"
+            },
+            {
+              "Drug&#91;1&#93;": "Green Crack",
+              "Ingredients": "Paracetamol +Gasoline +Cuke +Battery +Mega Bean",
+              "Ingredient\nCost": "$25",
+              "Asking\nPrice": "$134",
+              "Profit": "$109",
+              "Multiplier": "x2.84",
+              "Effects": "GlowingTropic ThunderZombifyingCyclopeanBright-EyedFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "Green Crack",
+              "Ingredients": "Paracetamol +Mega Bean +Motor Oil +Cuke +Battery +Mega Bean",
+              "Ingredient\nCost": "$33",
+              "Asking\nPrice": "$153",
+              "Profit": "$120",
+              "Multiplier": "x3.38",
+              "Effects": "Anti-GravityGlowingZombifyingTropic ThunderCyclopeanBright-EyedFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;3&#93;Green Crack",
+              "Ingredients": "Paracetamol +Cuke +Gasoline +Cuke +Mega Bean +Chili +Battery",
+              "Ingredient\nCost": "$34",
+              "Asking\nPrice": "$166",
+              "Profit": "$132",
+              "Multiplier": "x3.74",
+              "Effects": "GlowingTropic ThunderLong FacedZombifyingCyclopeanFoggySpicyBright-Eyed"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;3&#93;Green Crack",
+              "Ingredients": "Paracetamol +Banana +Gasoline +Cuke +Mega Bean +Battery +Banana +Cuke",
+              "Ingredient\nCost": "$31",
+              "Asking\nPrice": "$171",
+              "Profit": "$140",
+              "Multiplier": "x3.34",
+              "Effects": "JennerisingTropic ThunderAnti-GravityZombifyingGlowingCyclopeanBright-EyedThought-Provoking"
+            },
+            {
+              "Drug&#91;1&#93;": "Granddaddy Purple",
+              "Ingredients": "Viagor",
+              "Ingredient\nCost": "$4",
+              "Asking\nPrice": "$60",
+              "Profit": "$56",
+              "Multiplier": "x0.72",
+              "Effects": "SedatingTropic Thunder"
+            },
+            {
+              "Drug&#91;1&#93;": "Granddaddy Purple",
+              "Ingredients": "Cuke +Mega Bean",
+              "Ingredient\nCost": "$9",
+              "Asking\nPrice": "$76",
+              "Profit": "$67",
+              "Multiplier": "x1.18",
+              "Effects": "SedatingCyclopeanFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "Granddaddy Purple",
+              "Ingredients": "Cuke +Viagor +Mega Bean",
+              "Ingredient\nCost": "$13",
+              "Asking\nPrice": "$92",
+              "Profit": "$79",
+              "Multiplier": "x1.64",
+              "Effects": "SedatingCyclopeanTropic ThunderFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "Granddaddy Purple",
+              "Ingredients": "Cuke +Viagor +Banana",
+              "Ingredient\nCost": "$8",
+              "Asking\nPrice": "$83",
+              "Profit": "$75",
+              "Multiplier": "x1.75",
+              "Effects": "Gingeritis\nSedatingThought ProvokingTropic Thunder"
+            },
+            {
+              "Drug&#91;1&#93;": "Granddaddy Purple",
+              "Ingredients": "Banana +Cuke +Horse Semen +Mega Bean",
+              "Ingredient\nCost": "$20",
+              "Asking\nPrice": "$112",
+              "Profit": "$92",
+              "Multiplier": "x2.2",
+              "Effects": "SedatingElectrifyingCyclopeanLong FacedFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "Granddaddy Purple",
+              "Ingredients": "Banana +Cuke +Horse Semen +Viagor +Mega Bean",
+              "Ingredient\nCost": "$24",
+              "Asking\nPrice": "$128",
+              "Profit": "$104",
+              "Multiplier": "x2.66",
+              "Effects": "SedatingElectrifyingCyclopeanLong FacedTropic ThunderFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "Granddaddy Purple",
+              "Ingredients": "Cuke +Energy Drink +Mega Bean +Paracetamol +Chili +Mouth Wash",
+              "Ingredient\nCost": "$29",
+              "Asking\nPrice": "$146",
+              "Profit": "$117",
+              "Multiplier": "x3.16",
+              "Effects": "Tropic ThunderCyclopeanLong FacedAnti-GravityBright-EyedSpicyBalding"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;3&#93;Granddaddy Purple",
+              "Ingredients": "Cuke +Energy Drink +Paracetamol +Gasoline +Cuke +Mega Bean +Battery",
+              "Ingredient\nCost": "$32",
+              "Asking\nPrice": "$163",
+              "Profit": "$130",
+              "Multiplier": "x3.12",
+              "Effects": "Anti-GravityGlowingCalorie-DenseTropic ThunderZombifyingCyclopeanFoggyBright-Eyed"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;3&#93;Granddaddy Purple",
+              "Ingredients": "Banana +Paracetamol +Gasoline +Cuke +Mega Bean +Battery +Banana +Cuke",
+              "Ingredient\nCost": "$31",
+              "Asking\nPrice": "$165",
+              "Profit": "$134",
+              "Multiplier": "x3.18",
+              "Effects": "SedatingAnti-GravityTropic ThunderZombifyingGlowingCyclopeanBright-EyedThought-Provoking"
+            }
+          ],
+          "section": "Marijuana[]"
+        }
+      ]
+    },
+    {
+      "heading": "Methamphetamine[]",
+      "level": 4,
+      "content": [],
+      "lists": [],
+      "tables": [
+        {
+          "headers": [
+            "Drug&#91;1&#93;",
+            "Ingredients",
+            "Ingredient\nCost",
+            "Asking\nPrice",
+            "Profit",
+            "Multiplier",
+            "Effects"
+          ],
+          "rows": [
+            {
+              "Drug&#91;1&#93;": "Methamphetamine",
+              "Ingredients": "Viagor",
+              "Ingredient\nCost": "$4",
+              "Asking\nPrice": "$102",
+              "Profit": "$98",
+              "Multiplier": "x0.46",
+              "Effects": "Tropic Thunder"
+            },
+            {
+              "Drug&#91;1&#93;": "Methamphetamine",
+              "Ingredients": "Viagor +Horse Semen",
+              "Ingredient\nCost": "$13",
+              "Asking\nPrice": "$139",
+              "Profit": "$126",
+              "Multiplier": "x0.98",
+              "Effects": "Tropic ThunderLong Faced"
+            },
+            {
+              "Drug&#91;1&#93;": "Methamphetamine",
+              "Ingredients": "Cuke +Mega Bean +Viagor",
+              "Ingredient\nCost": "$13",
+              "Asking\nPrice": "$167",
+              "Profit": "$154",
+              "Multiplier": "x1.38",
+              "Effects": "CyclopeanFoggyTropic Thunder"
+            },
+            {
+              "Drug&#91;1&#93;": "Methamphetamine",
+              "Ingredients": "Banana +Cuke +Horse Semen +Mega Bean",
+              "Ingredient\nCost": "$20",
+              "Asking\nPrice": "$206",
+              "Profit": "$186",
+              "Multiplier": "x1.94",
+              "Effects": "ElectrifyingCyclopeanLong FacedFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "Methamphetamine",
+              "Ingredients": "Banana +Cuke +Viagor +Horse Semen +Mega Bean",
+              "Ingredient\nCost": "$24",
+              "Asking\nPrice": "$238",
+              "Profit": "$214",
+              "Multiplier": "x2.4",
+              "Effects": "ElectrifyingCyclopeanTropic ThunderLong FacedFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "Methamphetamine",
+              "Ingredients": "Cuke +Paracetamol +Gasoline +Cuke +Battery +Mega Bean",
+              "Ingredient\nCost": "$27",
+              "Asking\nPrice": "$269",
+              "Profit": "$242",
+              "Multiplier": "x2.84",
+              "Effects": "GlowingTropic ThunderZombifyingCyclopeanBright-EyedFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;2&#93;Methamphetamine",
+              "Ingredients": "Motor Oil +Cuke +Paracetamol +Gasoline +Cuke +Mega Bean +Battery",
+              "Ingredient\nCost": "$33",
+              "Asking\nPrice": "$307",
+              "Profit": "$274",
+              "Multiplier": "x2.84",
+              "Effects": "FoggyBright-EyedTropic ThunderGlowingAnti-GravityCyclopeanZombifying"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;3&#93;Methamphetamine",
+              "Ingredients": "Banana +Cuke +Paracetamol +Gasoline +Cuke +Battery +Horse Semen +Mega Bean",
+              "Ingredient\nCost": "$38",
+              "Asking\nPrice": "$340",
+              "Profit": "$302",
+              "Multiplier": "x3.84",
+              "Effects": "Bright-EyedCyclopeanElectrifyingFoggyGlowingLong FacedTropic ThunderZombifying"
+            }
+          ],
+          "section": "Methamphetamine[]"
+        }
+      ]
+    },
+    {
+      "heading": "Cocaine[]",
+      "level": 4,
+      "content": [],
+      "lists": [
+        [
+          {
+            "text": "↑ 1.0 1.1 1.2 Tables calculated using scripting to analyze all possible combinations and are guaranteed to be the best mixes, as explained in this post."
+          },
+          {
+            "text": "↑ 2.0 2.1 2.2 2.3 Tables calculated using a program to analyze combinations by another user named Prommah, also in this post (same as Reference 2, further down)."
+          },
+          {
+            "text": "↑ 3.00 3.01 3.02 3.03 3.04 3.05 3.06 3.07 3.08 3.09 These mixes were not generated from the scripting as per Reference 1, but from Schedule1-Calculator.com and/or schedule1-mixer.com as some of the best community found mixes so far. These mixes will be removed and replaced if the script produces a higher-profit mix with the same amount of steps. If profit is the same, new mixes will be added along side the current one."
+          }
+        ]
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Drug&#91;1&#93;",
+            "Ingredients",
+            "Ingredient\nCost",
+            "Asking\nPrice",
+            "Profit",
+            "Multiplier",
+            "Effects"
+          ],
+          "rows": [
+            {
+              "Drug&#91;1&#93;": "Cocaine",
+              "Ingredients": "Horse Semen",
+              "Ingredient\nCost": "$9",
+              "Asking\nPrice": "$228",
+              "Profit": "$219",
+              "Multiplier": "x0.52",
+              "Effects": "Long Faced"
+            },
+            {
+              "Drug&#91;1&#93;": "Cocaine",
+              "Ingredients": "Addy +Horse Semen",
+              "Ingredient\nCost": "$18",
+              "Asking\nPrice": "$303",
+              "Profit": "$285",
+              "Multiplier": "x1.02",
+              "Effects": "ElectrifyingLong Faced"
+            },
+            {
+              "Drug&#91;1&#93;": "Cocaine",
+              "Ingredients": "Viagor +Addy +Horse Semen",
+              "Ingredient\nCost": "$22",
+              "Asking\nPrice": "$372",
+              "Profit": "$350",
+              "Multiplier": "x1.48",
+              "Effects": "Tropic ThunderElectrifyingLong Faced"
+            },
+            {
+              "Drug&#91;1&#93;": "Cocaine",
+              "Ingredients": "Banana +Cuke +Horse Semen +Mega Bean",
+              "Ingredient\nCost": "$20",
+              "Asking\nPrice": "$441",
+              "Profit": "$421",
+              "Multiplier": "x1.94",
+              "Effects": "ElectrifyingCyclopeanLong FacedFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "Cocaine",
+              "Ingredients": "Banana +Cuke +Viagor +Horse Semen +Mega Bean",
+              "Ingredient\nCost": "$24",
+              "Asking\nPrice": "$510",
+              "Profit": "$486",
+              "Multiplier": "x2.4",
+              "Effects": "ElectrifyingCyclopeanTropic ThunderLong FacedFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "Cocaine",
+              "Ingredients": "Cuke +Paracetamol +Gasoline +Cuke +Battery +Mega Bean",
+              "Ingredient\nCost": "$27",
+              "Asking\nPrice": "$576",
+              "Profit": "$549",
+              "Multiplier": "x2.84",
+              "Effects": "GlowingTropic ThunderZombifyingCyclopeanBright-EyedFoggy"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;2&#93;Cocaine",
+              "Ingredients": "Motor Oil +Cuke +Paracetamol +Gasoline +Cuke +Mega Bean +Battery",
+              "Ingredient\nCost": "$33",
+              "Asking\nPrice": "$657",
+              "Profit": "$624",
+              "Multiplier": "x2.84",
+              "Effects": "FoggyBright-EyedTropic ThunderGlowingAnti-GravityCyclopeanZombifying"
+            },
+            {
+              "Drug&#91;1&#93;": "&#91;3&#93;Cocaine",
+              "Ingredients": "Motor Oil +Cuke +Paracetamol +Gasoline +Cuke +Horse Semen +Battery +Mega Bean",
+              "Ingredient\nCost": "$42",
+              "Asking\nPrice": "$735",
+              "Profit": "$693",
+              "Multiplier": "x3.90",
+              "Effects": "Anti-GravityGlowingTropic ThunderZombifyingCyclopeanLong FacedBright-EyedFoggy"
+            }
+          ],
+          "section": "Cocaine[]"
+        }
+      ]
+    },
+    {
+      "heading": "Additional Information[]",
+      "level": 2,
+      "content": [
+        {
+          "text": "The Trello also references potential for Heroin, MDMA, and Jenkem*"
+        }
+      ],
+      "lists": [],
+      "tables": []
+    }
+  ],
+  "related_links": [
+    {
+      "text": "marijuana",
+      "href": "/wiki/Marijuana"
+    },
+    {
+      "text": "Schedule I",
+      "href": "/wiki/Schedule_I"
+    },
+    {
+      "text": "Albert Hoover",
+      "href": "/wiki/Albert_Hoover"
+    },
+    {
+      "text": "grown",
+      "href": "/wiki/Growing_a_plant"
+    },
+    {
+      "text": "Mixing Station",
+      "href": "/wiki/Mixing_Station"
+    },
+    {
+      "text": "Mixing Station Mk2",
+      "href": "/wiki/Mixing_Station_Mk2"
+    },
+    {
+      "text": "ingredient",
+      "href": "/wiki/Ingredients"
+    },
+    {
+      "text": "ingredients",
+      "href": "/wiki/Ingredients"
+    },
+    {
+      "text": "Gas-Marts",
+      "href": "/wiki/Gas-Mart"
+    },
+    {
+      "text": "OG Kush",
+      "href": "/wiki/OG_Kush_(Marijuana)"
+    },
+    {
+      "text": "ranks",
+      "href": "/wiki/Ranks"
+    },
+    {
+      "text": "Albert Hoover‘s",
+      "href": "/wiki/Albert_Hoover"
+    },
+    {
+      "text": "Dan‘s Hardware store",
+      "href": "/wiki/Hardware_Store"
+    },
+    {
+      "text": "Northtown",
+      "href": "/wiki/Northtown"
+    },
+    {
+      "text": "Street Rat I",
+      "href": "/wiki/Ranks#Street_Rat_I"
+    },
+    {
+      "text": "Sour Diesel",
+      "href": "/wiki/Sour_Diesel_marijuana"
+    },
+    {
+      "text": "Street Rat IV",
+      "href": "/wiki/Ranks#Street_Rat_IV"
+    },
+    {
+      "text": "Green Crack",
+      "href": "/wiki/Green_Crack_(Marijuana)"
+    },
+    {
+      "text": "Hoodlum II",
+      "href": "/wiki/Ranks#Hoodlum_II"
+    },
+    {
+      "text": "Granddaddy Purple",
+      "href": "/wiki/Granddaddy_purple_(Marijuana)"
+    },
+    {
+      "text": "Hoodlum IV",
+      "href": "/wiki/Ranks#Hoodlum_IV"
+    },
+    {
+      "text": "methamphetamine",
+      "href": "/wiki/Methamphetamine"
+    },
+    {
+      "text": "Shirley Watts",
+      "href": "/wiki/Shirley_Watts"
+    },
+    {
+      "text": "Jerry Montero",
+      "href": "/wiki/Jerry_Montero"
+    },
+    {
+      "text": "Meg Cooley",
+      "href": "/wiki/Meg_Cooley"
+    },
+    {
+      "text": "Chemistry Station",
+      "href": "/wiki/Chemistry_Station"
+    },
+    {
+      "text": "Oscar",
+      "href": "/wiki/Oscar"
+    },
+    {
+      "text": "Warehouse",
+      "href": "/wiki/Warehouse"
+    },
+    {
+      "text": "Methamphetamine",
+      "href": "/wiki/Methamphetamine"
+    },
+    {
+      "text": "Hoodlum I",
+      "href": "/wiki/Ranks#Hoodlum_I"
+    },
+    {
+      "text": "Hustler III",
+      "href": "/wiki/Ranks#Hustler_III"
+    },
+    {
+      "text": "Bagman V",
+      "href": "/wiki/Ranks#Bagman_V"
+    },
+    {
+      "text": "Magic Mushrooms",
+      "href": "/wiki/Shrooms"
+    },
+    {
+      "text": "cocaine",
+      "href": "/wiki/Cocaine"
+    },
+    {
+      "text": "Fungal Phil",
+      "href": "/wiki/Fungal_Phil"
+    },
+    {
+      "text": "Shrooms",
+      "href": "/wiki/Shrooms"
+    },
+    {
+      "text": "Hustler I",
+      "href": "/wiki/Ranks#Hustler_I"
+    },
+    {
+      "text": "Mushroom Substrate",
+      "href": "/wiki/Mushroom_Substrate"
+    },
+    {
+      "text": "Mac Cooper",
+      "href": "/wiki/Mac_Cooper"
+    },
+    {
+      "text": "Javier Perez",
+      "href": "/wiki/Javier_Perez"
+    },
+    {
+      "text": "Kelly Reynolds",
+      "href": "/wiki/Kelly_Reynolds"
+    },
+    {
+      "text": "Salvador Moreno",
+      "href": "/wiki/Salvador_Moreno"
+    },
+    {
+      "text": "Cocaine",
+      "href": "/wiki/Cocaine"
+    },
+    {
+      "text": "Enforcer I",
+      "href": "/wiki/Ranks#Enforcer_I"
+    },
+    {
+      "text": "Personal Drug Use",
+      "href": "/wiki/Player#Personal_Drug_Use"
+    },
+    {
+      "text": "Chemist",
+      "href": "/wiki/Chemists"
+    }
+  ],
+  "all_tables": [
+    {
+      "headers": [
+        "Product",
+        "Precursors"
+      ],
+      "rows": [
+        {
+          "Product": "Image",
+          "Precursors": "Name",
+          "col_2": "Value",
+          "col_3": "Effect",
+          "col_4": "Image",
+          "col_5": "Name",
+          "col_6": "Rank"
+        },
+        {
+          "Product": "",
+          "Precursors": "OG Kush",
+          "col_2": "$38",
+          "col_3": "Calming",
+          "col_4": "",
+          "col_5": "OG Kush Seed",
+          "col_6": "Street Rat I&#91;1&#93;"
+        },
+        {
+          "Product": "",
+          "Precursors": "Sour Diesel",
+          "col_2": "$40",
+          "col_3": "Refreshing",
+          "col_4": "",
+          "col_5": "Sour Diesel Seed",
+          "col_6": "Street Rat IV"
+        },
+        {
+          "Product": "",
+          "Precursors": "Green Crack",
+          "col_2": "$43",
+          "col_3": "Energizing",
+          "col_4": "",
+          "col_5": "Green Crack Seed",
+          "col_6": "Hoodlum II"
+        },
+        {
+          "Product": "",
+          "Precursors": "Granddaddy Purple",
+          "col_2": "$44",
+          "col_3": "Sedating",
+          "col_4": "",
+          "col_5": "Granddaddy Purple Seed",
+          "col_6": "Hoodlum IV"
+        }
+      ],
+      "section": "Marijuana[]"
+    },
+    {
+      "headers": [
+        "Product",
+        "Precursors"
+      ],
+      "rows": [
+        {
+          "Product": "Image",
+          "Precursors": "Name",
+          "col_2": "Value",
+          "col_3": "Effect"
+        },
+        {
+          "Product": "",
+          "Precursors": "Methamphetamine",
+          "col_2": "$70",
+          "col_3": "None"
+        }
+      ],
+      "section": "Methamphetamine[]"
+    },
+    {
+      "headers": [
+        "Image",
+        "Name",
+        "Rank"
+      ],
+      "rows": [
+        {
+          "Image": "",
+          "Name": "Acid",
+          "Rank": "Hoodlum I"
+        },
+        {
+          "Image": "",
+          "Name": "Phosphorus",
+          "Rank": "Hoodlum I"
+        },
+        {
+          "Image": "",
+          "Name": "Low-Quality Pseudo",
+          "Rank": "Hoodlum I"
+        },
+        {
+          "Image": "",
+          "Name": "Pseudo",
+          "Rank": "Hustler III"
+        },
+        {
+          "Image": "",
+          "Name": "High-Quality Pseudo",
+          "Rank": "Bagman V"
+        },
+        {
+          "Image": "",
+          "Name": "Liquid Meth",
+          "Rank": "Hoodlum I"
+        }
+      ],
+      "section": "Methamphetamine[]"
+    },
+    {
+      "headers": [
+        "Product",
+        "Precursors"
+      ],
+      "rows": [
+        {
+          "Product": "Image",
+          "Precursors": "Name",
+          "col_2": "Value",
+          "col_3": "Effect"
+        },
+        {
+          "Product": "",
+          "Precursors": "Shrooms",
+          "col_2": "$100",
+          "col_3": "None"
+        }
+      ],
+      "section": "Shrooms[]"
+    },
+    {
+      "headers": [
+        "Image",
+        "Name",
+        "Rank"
+      ],
+      "rows": [
+        {
+          "Image": "",
+          "Name": "Spore Syringe",
+          "Rank": "Hustler I"
+        },
+        {
+          "Image": "",
+          "Name": "Grain Bag",
+          "Rank": "Hustler I"
+        },
+        {
+          "Image": "",
+          "Name": "Mushroom Substrate",
+          "Rank": "Hustler I"
+        },
+        {
+          "Image": "",
+          "Name": "Shroom Spawn",
+          "Rank": "Hustler I"
+        }
+      ],
+      "section": "Shrooms[]"
+    },
+    {
+      "headers": [
+        "Product",
+        "Precursors"
+      ],
+      "rows": [
+        {
+          "Product": "Image",
+          "Precursors": "Name",
+          "col_2": "Value",
+          "col_3": "Effect"
+        },
+        {
+          "Product": "",
+          "Precursors": "Cocaine",
+          "col_2": "$150",
+          "col_3": "None"
+        }
+      ],
+      "section": "Cocaine[]"
+    },
+    {
+      "headers": [
+        "Image",
+        "Name",
+        "Rank"
+      ],
+      "rows": [
+        {
+          "Image": "",
+          "Name": "Coca Seed",
+          "Rank": "Enforcer I"
+        },
+        {
+          "Image": "",
+          "Name": "Coca Leaf",
+          "Rank": "Enforcer I"
+        },
+        {
+          "Image": "",
+          "Name": "Cocaine Base",
+          "Rank": "Enforcer I"
+        }
+      ],
+      "section": "Cocaine[]"
+    },
+    {
+      "headers": [
+        "Drug&#91;1&#93;",
+        "Ingredients",
+        "Ingredient\nCost",
+        "Asking\nPrice",
+        "Profit",
+        "Multiplier",
+        "Effects"
+      ],
+      "rows": [
+        {
+          "Drug&#91;1&#93;": "OG Kush",
+          "Ingredients": "Mouth Wash",
+          "Ingredient\nCost": "$4",
+          "Asking\nPrice": "$64",
+          "Profit": "$60",
+          "Multiplier": "x0.84",
+          "Effects": "Anti-GravityBalding"
+        },
+        {
+          "Drug&#91;1&#93;": "OG Kush",
+          "Ingredients": "Cuke +Mega Bean",
+          "Ingredient\nCost": "$9",
+          "Asking\nPrice": "$84",
+          "Profit": "$75",
+          "Multiplier": "x1.4",
+          "Effects": "GlowingCyclopeanFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "OG Kush",
+          "Ingredients": "Cuke +Viagor +Mega Bean",
+          "Ingredient\nCost": "$13",
+          "Asking\nPrice": "$100",
+          "Profit": "$87",
+          "Multiplier": "x1.86",
+          "Effects": "GlowingCyclopeanTropic ThunderFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;2&#93;OG Kush",
+          "Ingredients": "Viagor +Mega Bean +Banana +Cuke",
+          "Ingredient\nCost": "$15",
+          "Asking\nPrice": "$111",
+          "Profit": "$96",
+          "Multiplier": "x2.16",
+          "Effects": "EnergizingThought-ProvokingTropic ThunderGlowingCyclopean"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;3&#93;OG Kush",
+          "Ingredients": "Gasoline +Cuke +Mega Bean +Viagor",
+          "Ingredient\nCost": "$18",
+          "Asking\nPrice": "$114",
+          "Profit": "$96",
+          "Multiplier": "x2.26",
+          "Effects": "GlowingBright-EyedCyclopeanFoggyTropic Thunder"
+        },
+        {
+          "Drug&#91;1&#93;": "OG Kush",
+          "Ingredients": "Cuke +Viagor +Mega Bean +Horse Semen",
+          "Ingredient\nCost": "$22",
+          "Asking\nPrice": "$118",
+          "Profit": "$96",
+          "Multiplier": "x2.38",
+          "Effects": "GlowingCyclopeanTropic ThunderFoggyLong Faced"
+        },
+        {
+          "Drug&#91;1&#93;": "OG Kush",
+          "Ingredients": "Viagor +Gasoline +Cuke +Battery +Mega Bean",
+          "Ingredient\nCost": "$26",
+          "Asking\nPrice": "$134",
+          "Profit": "$108",
+          "Multiplier": "x2.84",
+          "Effects": "GlowingTropic ThunderZombifyingCyclopeanBright-EyedFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "OG Kush",
+          "Ingredients": "Cuke +Viagor +Gasoline +Cuke +Battery +Mega Bean",
+          "Ingredient\nCost": "$28",
+          "Asking\nPrice": "$144",
+          "Profit": "$116",
+          "Multiplier": "x3.12",
+          "Effects": "Calorie-DenseFoggyBright-EyedTropic ThunderGlowingZombifyingCyclopean"
+        },
+        {
+          "Drug&#91;1&#93;": "OG Kush",
+          "Ingredients": "Cuke +Mouth Wash +Gasoline +Cuke +Viagor +Mega Bean",
+          "Ingredient\nCost": "$24",
+          "Asking\nPrice": "$144",
+          "Profit": "$120",
+          "Multiplier": "x3.10",
+          "Effects": "BaldingFoggyBright-EyedTropic ThunderGlowingAnti-GravityCyclopean"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;2&#93;OG Kush",
+          "Ingredients": "Banana +Gasoline +Cuke +Mega Bean +Battery +Banana +Cuke",
+          "Ingredient\nCost": "$28",
+          "Asking\nPrice": "$164",
+          "Profit": "$136",
+          "Multiplier": "x3.14",
+          "Effects": "EnergizingBright-EyedThought-ProvokingTropic ThunderGlowingAnti-GravityCyclopeanZombifying"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;3&#93;OG Kush",
+          "Ingredients": "Banana +Gasoline +Paracetamol +Cuke +Mega Bean +Battery +Banana +Cuke",
+          "Ingredient\nCost": "$31",
+          "Asking\nPrice": "$171",
+          "Profit": "$140",
+          "Multiplier": "x3.88",
+          "Effects": "Tropic ThunderAnti-GravityZombifyingJennerisingGlowingCyclopeanBright-EyedThought-Provoking"
+        },
+        {
+          "Drug&#91;1&#93;": "Sour Diesel",
+          "Ingredients": "Iodine",
+          "Ingredient\nCost": "$8",
+          "Asking\nPrice": "$65",
+          "Profit": "$57",
+          "Multiplier": "x0.86",
+          "Effects": "Thought-ProvokingJennerising"
+        },
+        {
+          "Drug&#91;1&#93;": "Sour Diesel",
+          "Ingredients": "Viagor +Iodine",
+          "Ingredient\nCost": "$12",
+          "Asking\nPrice": "$81",
+          "Profit": "$69",
+          "Multiplier": "x1.32",
+          "Effects": "Thought-ProvokingTropic ThunderJennerising"
+        },
+        {
+          "Drug&#91;1&#93;": "Sour Diesel",
+          "Ingredients": "Viagor +Iodine +Horse Semen",
+          "Ingredient\nCost": "$21",
+          "Asking\nPrice": "$102",
+          "Profit": "$81",
+          "Multiplier": "x1.9",
+          "Effects": "ElectrifyingTropic ThunderJennerisingLong Faced"
+        },
+        {
+          "Drug&#91;1&#93;": "Sour Diesel",
+          "Ingredients": "Cuke +Mega Bean +Iodine +Motor Oil",
+          "Ingredient\nCost": "$23",
+          "Asking\nPrice": "$116",
+          "Profit": "$93",
+          "Multiplier": "x2.3",
+          "Effects": "Thought-ProvokingCyclopeanAnti-GravityJennerisingSlippery"
+        },
+        {
+          "Drug&#91;1&#93;": "Sour Diesel",
+          "Ingredients": "Cuke +Viagor +Mega Bean +Iodine +Motor Oil",
+          "Ingredient\nCost": "$27",
+          "Asking\nPrice": "$132",
+          "Profit": "$105",
+          "Multiplier": "x2.76",
+          "Effects": "Thought-ProvokingCyclopeanTropic ThunderAnti-GravityJennerisingSlippery"
+        },
+        {
+          "Drug&#91;1&#93;": "Sour Diesel",
+          "Ingredients": "Banana +Cuke +Horse Semen +Mega Bean +Iodine +Motor Oil",
+          "Ingredient\nCost": "$34",
+          "Asking\nPrice": "$151",
+          "Profit": "$117",
+          "Multiplier": "x3.32",
+          "Effects": "Thought-ProvokingElectrifyingCyclopeanLong FacedAnti-GravityJennerisingSlippery"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;3&#93;Sour Diesel",
+          "Ingredients": "Banana +Cuke +Horse Semen +Mega Bean +Iodine +Motor Oil +Viagor",
+          "Ingredient\nCost": "$38",
+          "Asking\nPrice": "$167",
+          "Profit": "$129",
+          "Multiplier": "x3.24",
+          "Effects": "Thought-ProvokingElectrifyingCyclopeanLong FacedAnti-GravityJennerisingSlipperyTropic Thunder"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;3&#93;Sour Diesel",
+          "Ingredients": "Paracetamol +Banana +Gasoline +Cuke +Mega Bean +Battery +Banana +Cuke",
+          "Ingredient\nCost": "$31",
+          "Asking\nPrice": "$161",
+          "Profit": "$130",
+          "Multiplier": "x3.06",
+          "Effects": "RefreshingTropic ThunderAnti-GravityZombifyingGlowingCyclopeanBright-EyedThought-Provoking"
+        },
+        {
+          "Drug&#91;1&#93;": "Green Crack",
+          "Ingredients": "Mega Bean",
+          "Ingredient\nCost": "$7",
+          "Asking\nPrice": "$67",
+          "Profit": "$60",
+          "Multiplier": "x0.92",
+          "Effects": "CyclopeanFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "Green Crack",
+          "Ingredients": "Mega Bean +Viagor",
+          "Ingredient\nCost": "$11",
+          "Asking\nPrice": "$83",
+          "Profit": "$72",
+          "Multiplier": "x1.38",
+          "Effects": "CyclopeanFoggyTropic Thunder"
+        },
+        {
+          "Drug&#91;1&#93;": "Green Crack",
+          "Ingredients": "Mega Bean +Viagor +Horse Semen",
+          "Ingredient\nCost": "$20",
+          "Asking\nPrice": "$102",
+          "Profit": "$82",
+          "Multiplier": "x1.9",
+          "Effects": "CyclopeanFoggyTropic ThunderLong Faced"
+        },
+        {
+          "Drug&#91;1&#93;": "Green Crack",
+          "Ingredients": "Banana +Viagor +Horse Semen +Iodine",
+          "Ingredient\nCost": "$23",
+          "Asking\nPrice": "$117",
+          "Profit": "$94",
+          "Multiplier": "x2.34",
+          "Effects": "ElectrifyingThought-ProvokingTropic ThunderLong FacedJennerising"
+        },
+        {
+          "Drug&#91;1&#93;": "Green Crack",
+          "Ingredients": "Paracetamol +Gasoline +Cuke +Battery +Mega Bean",
+          "Ingredient\nCost": "$25",
+          "Asking\nPrice": "$134",
+          "Profit": "$109",
+          "Multiplier": "x2.84",
+          "Effects": "GlowingTropic ThunderZombifyingCyclopeanBright-EyedFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "Green Crack",
+          "Ingredients": "Paracetamol +Mega Bean +Motor Oil +Cuke +Battery +Mega Bean",
+          "Ingredient\nCost": "$33",
+          "Asking\nPrice": "$153",
+          "Profit": "$120",
+          "Multiplier": "x3.38",
+          "Effects": "Anti-GravityGlowingZombifyingTropic ThunderCyclopeanBright-EyedFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;3&#93;Green Crack",
+          "Ingredients": "Paracetamol +Cuke +Gasoline +Cuke +Mega Bean +Chili +Battery",
+          "Ingredient\nCost": "$34",
+          "Asking\nPrice": "$166",
+          "Profit": "$132",
+          "Multiplier": "x3.74",
+          "Effects": "GlowingTropic ThunderLong FacedZombifyingCyclopeanFoggySpicyBright-Eyed"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;3&#93;Green Crack",
+          "Ingredients": "Paracetamol +Banana +Gasoline +Cuke +Mega Bean +Battery +Banana +Cuke",
+          "Ingredient\nCost": "$31",
+          "Asking\nPrice": "$171",
+          "Profit": "$140",
+          "Multiplier": "x3.34",
+          "Effects": "JennerisingTropic ThunderAnti-GravityZombifyingGlowingCyclopeanBright-EyedThought-Provoking"
+        },
+        {
+          "Drug&#91;1&#93;": "Granddaddy Purple",
+          "Ingredients": "Viagor",
+          "Ingredient\nCost": "$4",
+          "Asking\nPrice": "$60",
+          "Profit": "$56",
+          "Multiplier": "x0.72",
+          "Effects": "SedatingTropic Thunder"
+        },
+        {
+          "Drug&#91;1&#93;": "Granddaddy Purple",
+          "Ingredients": "Cuke +Mega Bean",
+          "Ingredient\nCost": "$9",
+          "Asking\nPrice": "$76",
+          "Profit": "$67",
+          "Multiplier": "x1.18",
+          "Effects": "SedatingCyclopeanFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "Granddaddy Purple",
+          "Ingredients": "Cuke +Viagor +Mega Bean",
+          "Ingredient\nCost": "$13",
+          "Asking\nPrice": "$92",
+          "Profit": "$79",
+          "Multiplier": "x1.64",
+          "Effects": "SedatingCyclopeanTropic ThunderFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "Granddaddy Purple",
+          "Ingredients": "Cuke +Viagor +Banana",
+          "Ingredient\nCost": "$8",
+          "Asking\nPrice": "$83",
+          "Profit": "$75",
+          "Multiplier": "x1.75",
+          "Effects": "Gingeritis\nSedatingThought ProvokingTropic Thunder"
+        },
+        {
+          "Drug&#91;1&#93;": "Granddaddy Purple",
+          "Ingredients": "Banana +Cuke +Horse Semen +Mega Bean",
+          "Ingredient\nCost": "$20",
+          "Asking\nPrice": "$112",
+          "Profit": "$92",
+          "Multiplier": "x2.2",
+          "Effects": "SedatingElectrifyingCyclopeanLong FacedFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "Granddaddy Purple",
+          "Ingredients": "Banana +Cuke +Horse Semen +Viagor +Mega Bean",
+          "Ingredient\nCost": "$24",
+          "Asking\nPrice": "$128",
+          "Profit": "$104",
+          "Multiplier": "x2.66",
+          "Effects": "SedatingElectrifyingCyclopeanLong FacedTropic ThunderFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "Granddaddy Purple",
+          "Ingredients": "Cuke +Energy Drink +Mega Bean +Paracetamol +Chili +Mouth Wash",
+          "Ingredient\nCost": "$29",
+          "Asking\nPrice": "$146",
+          "Profit": "$117",
+          "Multiplier": "x3.16",
+          "Effects": "Tropic ThunderCyclopeanLong FacedAnti-GravityBright-EyedSpicyBalding"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;3&#93;Granddaddy Purple",
+          "Ingredients": "Cuke +Energy Drink +Paracetamol +Gasoline +Cuke +Mega Bean +Battery",
+          "Ingredient\nCost": "$32",
+          "Asking\nPrice": "$163",
+          "Profit": "$130",
+          "Multiplier": "x3.12",
+          "Effects": "Anti-GravityGlowingCalorie-DenseTropic ThunderZombifyingCyclopeanFoggyBright-Eyed"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;3&#93;Granddaddy Purple",
+          "Ingredients": "Banana +Paracetamol +Gasoline +Cuke +Mega Bean +Battery +Banana +Cuke",
+          "Ingredient\nCost": "$31",
+          "Asking\nPrice": "$165",
+          "Profit": "$134",
+          "Multiplier": "x3.18",
+          "Effects": "SedatingAnti-GravityTropic ThunderZombifyingGlowingCyclopeanBright-EyedThought-Provoking"
+        }
+      ],
+      "section": "Marijuana[]"
+    },
+    {
+      "headers": [
+        "Drug&#91;1&#93;",
+        "Ingredients",
+        "Ingredient\nCost",
+        "Asking\nPrice",
+        "Profit",
+        "Multiplier",
+        "Effects"
+      ],
+      "rows": [
+        {
+          "Drug&#91;1&#93;": "Methamphetamine",
+          "Ingredients": "Viagor",
+          "Ingredient\nCost": "$4",
+          "Asking\nPrice": "$102",
+          "Profit": "$98",
+          "Multiplier": "x0.46",
+          "Effects": "Tropic Thunder"
+        },
+        {
+          "Drug&#91;1&#93;": "Methamphetamine",
+          "Ingredients": "Viagor +Horse Semen",
+          "Ingredient\nCost": "$13",
+          "Asking\nPrice": "$139",
+          "Profit": "$126",
+          "Multiplier": "x0.98",
+          "Effects": "Tropic ThunderLong Faced"
+        },
+        {
+          "Drug&#91;1&#93;": "Methamphetamine",
+          "Ingredients": "Cuke +Mega Bean +Viagor",
+          "Ingredient\nCost": "$13",
+          "Asking\nPrice": "$167",
+          "Profit": "$154",
+          "Multiplier": "x1.38",
+          "Effects": "CyclopeanFoggyTropic Thunder"
+        },
+        {
+          "Drug&#91;1&#93;": "Methamphetamine",
+          "Ingredients": "Banana +Cuke +Horse Semen +Mega Bean",
+          "Ingredient\nCost": "$20",
+          "Asking\nPrice": "$206",
+          "Profit": "$186",
+          "Multiplier": "x1.94",
+          "Effects": "ElectrifyingCyclopeanLong FacedFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "Methamphetamine",
+          "Ingredients": "Banana +Cuke +Viagor +Horse Semen +Mega Bean",
+          "Ingredient\nCost": "$24",
+          "Asking\nPrice": "$238",
+          "Profit": "$214",
+          "Multiplier": "x2.4",
+          "Effects": "ElectrifyingCyclopeanTropic ThunderLong FacedFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "Methamphetamine",
+          "Ingredients": "Cuke +Paracetamol +Gasoline +Cuke +Battery +Mega Bean",
+          "Ingredient\nCost": "$27",
+          "Asking\nPrice": "$269",
+          "Profit": "$242",
+          "Multiplier": "x2.84",
+          "Effects": "GlowingTropic ThunderZombifyingCyclopeanBright-EyedFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;2&#93;Methamphetamine",
+          "Ingredients": "Motor Oil +Cuke +Paracetamol +Gasoline +Cuke +Mega Bean +Battery",
+          "Ingredient\nCost": "$33",
+          "Asking\nPrice": "$307",
+          "Profit": "$274",
+          "Multiplier": "x2.84",
+          "Effects": "FoggyBright-EyedTropic ThunderGlowingAnti-GravityCyclopeanZombifying"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;3&#93;Methamphetamine",
+          "Ingredients": "Banana +Cuke +Paracetamol +Gasoline +Cuke +Battery +Horse Semen +Mega Bean",
+          "Ingredient\nCost": "$38",
+          "Asking\nPrice": "$340",
+          "Profit": "$302",
+          "Multiplier": "x3.84",
+          "Effects": "Bright-EyedCyclopeanElectrifyingFoggyGlowingLong FacedTropic ThunderZombifying"
+        }
+      ],
+      "section": "Methamphetamine[]"
+    },
+    {
+      "headers": [
+        "Drug&#91;1&#93;",
+        "Ingredients",
+        "Ingredient\nCost",
+        "Asking\nPrice",
+        "Profit",
+        "Multiplier",
+        "Effects"
+      ],
+      "rows": [
+        {
+          "Drug&#91;1&#93;": "Cocaine",
+          "Ingredients": "Horse Semen",
+          "Ingredient\nCost": "$9",
+          "Asking\nPrice": "$228",
+          "Profit": "$219",
+          "Multiplier": "x0.52",
+          "Effects": "Long Faced"
+        },
+        {
+          "Drug&#91;1&#93;": "Cocaine",
+          "Ingredients": "Addy +Horse Semen",
+          "Ingredient\nCost": "$18",
+          "Asking\nPrice": "$303",
+          "Profit": "$285",
+          "Multiplier": "x1.02",
+          "Effects": "ElectrifyingLong Faced"
+        },
+        {
+          "Drug&#91;1&#93;": "Cocaine",
+          "Ingredients": "Viagor +Addy +Horse Semen",
+          "Ingredient\nCost": "$22",
+          "Asking\nPrice": "$372",
+          "Profit": "$350",
+          "Multiplier": "x1.48",
+          "Effects": "Tropic ThunderElectrifyingLong Faced"
+        },
+        {
+          "Drug&#91;1&#93;": "Cocaine",
+          "Ingredients": "Banana +Cuke +Horse Semen +Mega Bean",
+          "Ingredient\nCost": "$20",
+          "Asking\nPrice": "$441",
+          "Profit": "$421",
+          "Multiplier": "x1.94",
+          "Effects": "ElectrifyingCyclopeanLong FacedFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "Cocaine",
+          "Ingredients": "Banana +Cuke +Viagor +Horse Semen +Mega Bean",
+          "Ingredient\nCost": "$24",
+          "Asking\nPrice": "$510",
+          "Profit": "$486",
+          "Multiplier": "x2.4",
+          "Effects": "ElectrifyingCyclopeanTropic ThunderLong FacedFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "Cocaine",
+          "Ingredients": "Cuke +Paracetamol +Gasoline +Cuke +Battery +Mega Bean",
+          "Ingredient\nCost": "$27",
+          "Asking\nPrice": "$576",
+          "Profit": "$549",
+          "Multiplier": "x2.84",
+          "Effects": "GlowingTropic ThunderZombifyingCyclopeanBright-EyedFoggy"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;2&#93;Cocaine",
+          "Ingredients": "Motor Oil +Cuke +Paracetamol +Gasoline +Cuke +Mega Bean +Battery",
+          "Ingredient\nCost": "$33",
+          "Asking\nPrice": "$657",
+          "Profit": "$624",
+          "Multiplier": "x2.84",
+          "Effects": "FoggyBright-EyedTropic ThunderGlowingAnti-GravityCyclopeanZombifying"
+        },
+        {
+          "Drug&#91;1&#93;": "&#91;3&#93;Cocaine",
+          "Ingredients": "Motor Oil +Cuke +Paracetamol +Gasoline +Cuke +Horse Semen +Battery +Mega Bean",
+          "Ingredient\nCost": "$42",
+          "Asking\nPrice": "$735",
+          "Profit": "$693",
+          "Multiplier": "x3.90",
+          "Effects": "Anti-GravityGlowingTropic ThunderZombifyingCyclopeanLong FacedBright-EyedFoggy"
+        }
+      ],
+      "section": "Cocaine[]"
+    }
+  ]
+}

@@ -1,65 +1,157 @@
-import Image from "next/image";
+import Link from 'next/link';
+import { Card, StatCard, SectionHeader } from '@/components/ui';
+import { drugs, ingredients, properties, achievements } from '@/lib/static-data';
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      {/* Hero Section */}
+      <div className="text-center mb-12">
+        <h1 className="font-mono text-4xl font-bold text-gray-900 mb-4">
+          Schedule I <span className="text-[#3847f5]">Wiki</span>
+        </h1>
+        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          A comprehensive guide to Schedule I. Find all drugs, ingredients, mixing recipes, 
+          properties, and achievements in one place.
+        </p>
+      </div>
+
+      {/* Stats */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+        <StatCard label="Drugs" value={drugs.length.toString()} description="Types available" />
+        <StatCard label="Ingredients" value={ingredients.length.toString()} description="For mixing" />
+        <StatCard label="Properties" value={properties.length.toString()} description="To purchase" />
+        <StatCard label="Achievements" value={achievements.length.toString()} description="To unlock" />
+      </div>
+
+      {/* Quick Links */}
+      <SectionHeader title="Quick Navigation" description="Jump to what you need" />
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+        <Card title="Drugs" href="/drugs" className="hover-lift">
+          <p className="text-sm text-gray-600">
+            {drugs.length} drug types including Marijuana, Meth, Shrooms, and Cocaine.
           </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {drugs.slice(0, 3).map(drug => (
+              <span key={drug.name} className="font-mono text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                {drug.name}
+              </span>
+            ))}
+          </div>
+        </Card>
+
+        <Card title="Ingredients" href="/ingredients" className="hover-lift">
+          <p className="text-sm text-gray-600">
+            {ingredients.length} ingredients for mixing with detailed effect replacements.
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {ingredients.slice(0, 3).map(ingredient => (
+              <span key={ingredient.name} className="font-mono text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                {ingredient.name}
+              </span>
+            ))}
+          </div>
+        </Card>
+
+        <Card title="Properties" href="/properties" className="hover-lift">
+          <p className="text-sm text-gray-600">
+            {properties.length} properties to purchase for your operations.
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {properties.slice(0, 3).map(property => (
+              <span key={property.name} className="font-mono text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                {property.name}
+              </span>
+            ))}
+          </div>
+        </Card>
+
+        <Card title="Achievements" href="/achievements" className="hover-lift">
+          <p className="text-sm text-gray-600">
+            {achievements.length} achievements with detailed completion guides.
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {achievements.slice(0, 3).map(achievement => (
+              <span key={achievement.name} className="font-mono text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                {achievement.name}
+              </span>
+            ))}
+          </div>
+        </Card>
+      </div>
+
+      {/* Featured Content */}
+      <SectionHeader title="Featured Content" description="Popular guides and resources" />
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+        <Card title="Best Mixing Recipes" href="/guides/best-mixes" className="hover-lift">
+          <p className="text-sm text-gray-600 mb-3">
+            Discover the most profitable mixing recipes for each drug type.
+          </p>
+          <div className="bg-gray-50 rounded p-3">
+            <p className="font-mono text-xs text-gray-500 mb-1">Example: OG Kush + Mouth Wash</p>
+            <p className="font-mono text-sm text-[#3847f5]">Cost: $4 → Sell: $64 = Profit: $60</p>
+          </div>
+        </Card>
+
+        <Card title="Effect Reference" href="/guides/effect-reference" className="hover-lift">
+          <p className="text-sm text-gray-600 mb-3">
+            Complete list of all 34 effects and their replacements.
+          </p>
+          <div className="bg-gray-50 rounded p-3">
+            <p className="font-mono text-xs text-gray-500 mb-1">Example: Cuke</p>
+            <p className="font-mono text-sm text-[#3847f5]">Energizing → Euphoric → Laxative</p>
+          </div>
+        </Card>
+      </div>
+
+      {/* Recent Updates */}
+      <SectionHeader title="Game Info" description="About Schedule I" />
+      
+      <Card title="Schedule I" className="mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h4 className="font-mono text-sm font-bold text-gray-900 mb-2">Overview</h4>
+            <ul className="text-sm text-gray-600 space-y-2">
+              <li>• <strong>Developer:</strong> TVGS</li>
+              <li>• <strong>Release:</strong> March 24, 2025 (Early Access)</li>
+              <li>• <strong>Engine:</strong> Unity 2022</li>
+              <li>• <strong>Price:</strong> $19.99</li>
+              <li>• <strong>Players:</strong> 1-4 Co-op</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-mono text-sm font-bold text-gray-900 mb-2">Links</h4>
+            <ul className="text-sm text-gray-600 space-y-2">
+              <li>
+                <a href="https://store.steampowered.com/app/3205720/Schedule_I/" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   className="text-[#3847f5] hover:underline">
+                  Steam Store
+                </a>
+              </li>
+              <li>
+                <a href="https://store.steampowered.com/app/3205720/Schedule_I_Free_Sample/" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   className="text-[#3847f5] hover:underline">
+                  Free Demo
+                </a>
+              </li>
+              <li>
+                <a href="https://schedule-1.fandom.com/" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   className="text-[#3847f5] hover:underline">
+                  Fandom Wiki
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      </Card>
     </div>
   );
 }
