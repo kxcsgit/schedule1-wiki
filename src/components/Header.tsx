@@ -26,6 +26,9 @@ export default function Header() {
             <Link href="/achievements" className="font-mono text-sm text-gray-600 hover:text-gray-900 transition-colors">
               Achievements
             </Link>
+            <Link href="/calculator" className="font-mono text-sm text-gray-600 hover:text-gray-900 transition-colors">
+              🧪 Calculator
+            </Link>
             <Link href="/guides" className="font-mono text-sm text-gray-600 hover:text-gray-900 transition-colors">
               Guides
             </Link>

@@ -1,0 +1,1228 @@
+{
+  "drugs": {
+    "OG Kush": {
+      "name": "OG Kush",
+      "price": "$38",
+      "ingredients_raw": "OG Kush Seeds ($30), Soil, Water, Fertilizers (optional)",
+      "yield": "Grow Tent: 8 units (12 w/ PGR), Pot: 12 units (16 w/ PGR)",
+      "production_time": "~5 hours 5 minutes (fastest)~7 hours 20 minutes (slowest)",
+      "supplier": "Albert Hoover",
+      "equipment": "Watering Can, Trimmers, Grow Tent ''or'' pot, grow light and suspension rack, Pot Sprinkler (optional), Soil Pourer (optional)",
+      "recipes": [
+        {
+          "ingredient": "cuke",
+          "result": "[[OG Kush (Marijuana)#Thick Monkey|Thick Monkey]]",
+          "price": "$46",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}",
+          "addictiveness": "39%"
+        },
+        {
+          "ingredient": "banana",
+          "result": "[[OG Kush (Marijuana)#Thick Dick|Thick Dick]]",
+          "price": "$50",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Gingeritis}}",
+          "addictiveness": "37%"
+        },
+        {
+          "ingredient": "paracetamol",
+          "result": "[[OG Kush (Marijuana)#Ultra Cake|Ultra Cake]]",
+          "price": "$55",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "68%"
+        },
+        {
+          "ingredient": "donut",
+          "result": "[[OG Kush (Marijuana)#Sweet Smegma|Sweet Smegma]]",
+          "price": "$48",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}",
+          "addictiveness": "19%"
+        },
+        {
+          "ingredient": "viagor",
+          "result": "[[OG Kush (Marijuana)#Afghan Shart|Ice Cream Cake<br>Afghan Shart]]",
+          "price": "$55",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "85%"
+        },
+        {
+          "ingredient": "mouth",
+          "result": "[[OG Kush (Marijuana)#Purple Cheese|Purple Cheese]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "66%"
+        },
+        {
+          "ingredient": "flu",
+          "result": "[[OG Kush (Marijuana)#California Fuel|California Fuel]]",
+          "price": "$58",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "25%"
+        },
+        {
+          "ingredient": "gas",
+          "result": "[[OG Kush (Marijuana)#Miracle Crack|Miracle Crack]]",
+          "price": "$38",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}",
+          "addictiveness": "5%"
+        },
+        {
+          "ingredient": "energy",
+          "result": "[[OG Kush (Marijuana)#Purple Assblaster|Purple Assblaster]]",
+          "price": "$50",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "65%"
+        },
+        {
+          "ingredient": "oil",
+          "result": "[[OG Kush (Marijuana)#Wedding Monkey|Wedding Monkey]]",
+          "price": "$50",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "35%"
+        },
+        {
+          "ingredient": "bean",
+          "result": "[[OG Kush (Marijuana)#Fruity Ass|Fruity Ass]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Foggy}}\u2022 {{Effect|Glowing}}",
+          "addictiveness": "62%"
+        },
+        {
+          "ingredient": "chili",
+          "result": "[[OG Kush (Marijuana)#Aspen Slime|Aspen Slime]]",
+          "price": "$52",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Spicy}}",
+          "addictiveness": "71%"
+        },
+        {
+          "ingredient": "battery",
+          "result": "[[OG Kush (Marijuana)#Big Stink|Big Stink]]",
+          "price": "$52",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "25%"
+        },
+        {
+          "ingredient": "iodine",
+          "result": "[[OG Kush (Marijuana)#Dark Punch|Dark Punch]]",
+          "price": "$25",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Jennerising}}",
+          "addictiveness": "39%"
+        },
+        {
+          "ingredient": "addy",
+          "result": "[[OG Kush (Marijuana)#Granddaddy Punch|Grandady Punch]]",
+          "price": "$54",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Thought-Provoking}}",
+          "addictiveness": "42%"
+        },
+        {
+          "ingredient": "horse",
+          "result": "[[OG Kush (Marijuana)#Ultra Diesel|Ultra Diesel]]",
+          "price": "$57",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Long faced}}",
+          "addictiveness": "65%"
+        },
+        {
+          "ingredient": "cuke",
+          "result": "Thick Monkey",
+          "price": "$46",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}",
+          "addictiveness": "39%"
+        },
+        {
+          "ingredient": "banana",
+          "result": "[[OG Kush (Marijuana)#Stinky Mint|Stinky Mint]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Gingerritis}}\u2022 {{Effect|Thought-Provoking}}",
+          "addictiveness": "74%"
+        },
+        {
+          "ingredient": "paracetamol",
+          "result": "[[OG Kush (Marijuana)#Granddaddy Ghosst|Granddaddy Ghost]]",
+          "price": "$55",
+          "effects": "\u2022 {{Effect|Paranoia}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "68%"
+        },
+        {
+          "ingredient": "donut",
+          "result": "[[OG Kush (Marijuana)#Ultra Piss|Ultra Piss]]",
+          "price": "$56",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Calorie-Dense}}",
+          "addictiveness": "49%"
+        },
+        {
+          "ingredient": "viagor",
+          "result": "[[OG Kush (Marijuana)#Death Fuel|Death Fuel]]",
+          "price": "$62",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "mouth",
+          "result": "[[OG Kush (Marijuana)#Purple Express|Purple Express]]",
+          "price": "$72",
+          "effects": "\u2022 {{Effect|Energizing}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "flu",
+          "result": "[[OG Kush (Marijuana)#Stinky Shart|Stinky Shart]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Energizing}}\u2022 {{Effect|Sedating}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "59%"
+        },
+        {
+          "ingredient": "gas",
+          "result": "[[OG Kush (Marijuana)#Sweet Diamond|Sweet Diamond]]",
+          "price": "$45",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Euphoric}}\u2022 {{Effect|Toxic}}",
+          "addictiveness": "20%"
+        },
+        {
+          "ingredient": "energy",
+          "result": "[[OG Kush (Marijuana)#Purple Puke|Purple Puke]]",
+          "price": "$57",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "99%"
+        },
+        {
+          "ingredient": "oil",
+          "result": "[[OG Kush (Marijuana)#Dream Cheese|Dream Cheese]]",
+          "price": "$55",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Munchies}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "45%"
+        },
+        {
+          "ingredient": "bean",
+          "result": "[[OG Kush (Marijuana)#Big Fruit|Big Fruit]]",
+          "price": "$84",
+          "effects": "\u2022 {{Effect|Foggy}}\u2022 {{Effect|Glowing}}\u2022 {{Effect|Cyclopean}}",
+          "addictiveness": "72%"
+        },
+        {
+          "ingredient": "chili",
+          "result": "[[OG Kush (Marijuana)#Aspen Cake|Aspen Cake]]",
+          "price": "$60",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Spicy}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "battery",
+          "result": "[[OG Kush (Marijuana)#Big Monkey|Big Monkey]]",
+          "price": "$60",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "59%"
+        },
+        {
+          "ingredient": "iodine",
+          "result": "[[OG Kush (Marijuana)#Dark Rhino|Dark Rhino]]",
+          "price": "$68",
+          "effects": "\u2022 {{Effect|Energizing}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Jennerising}}",
+          "addictiveness": "73%"
+        },
+        {
+          "ingredient": "addy",
+          "result": "[[OG Kush (Marijuana)#Big Punch|Big Punch]]",
+          "price": "$62",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Thought-Provoking}}",
+          "addictiveness": "76%"
+        },
+        {
+          "ingredient": "horse",
+          "result": "[[OG Kush (Marijuana)#Sweet Cock|Sweet Cock]]",
+          "price": "$99",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Long Faced}}",
+          "addictiveness": "99%"
+        },
+        {
+          "ingredient": "cuke",
+          "result": "[[OG Kush (Marijuana)#Wedding Cookies|Wedding Cookies]]",
+          "price": "$58",
+          "effects": "\u2022 {{Effect|Paranoia}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Thought-Provoking}}",
+          "addictiveness": "76%"
+        },
+        {
+          "ingredient": "banana",
+          "result": "Thick Dick",
+          "price": "$50",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Gingeritis}}",
+          "addictiveness": "37%"
+        },
+        {
+          "ingredient": "paracetamol",
+          "result": "Thick Dick",
+          "price": "$50",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Gingeritis}}",
+          "addictiveness": "37%"
+        },
+        {
+          "ingredient": "donut",
+          "result": "[[OG Kush (Marijuana)#California Ghost|California Ghost]]",
+          "price": "$60",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Calorie-Dense}}",
+          "addictiveness": "47%"
+        },
+        {
+          "ingredient": "viagor",
+          "result": "[[OG Kush (Marijuana)#Girl Scout Thunderfuck|Girl Scout Thunderfuck]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "mouth",
+          "result": "[[OG Kush (Marijuana)#Tokyo Cum|Tokyo Cum]]",
+          "price": "$61",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Balding}}",
+          "addictiveness": "37%"
+        },
+        {
+          "ingredient": "flu",
+          "result": "[[OG Kush (Marijuana)#Thick Grool|Thick Grool]]",
+          "price": "$60",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Sedating}}",
+          "addictiveness": "37%"
+        },
+        {
+          "ingredient": "gas",
+          "result": "[[OG Kush (Marijuana)#White Crystal|White Crystal]]",
+          "price": "$51",
+          "effects": "\u2022 {{Effect|Smelly}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "85%"
+        },
+        {
+          "ingredient": "energy",
+          "result": "[[OG Kush (Marijuana)#Granddaddy Smegma|Granddaddy Smegma]]",
+          "price": "$62",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "98%"
+        },
+        {
+          "ingredient": "oil",
+          "result": "[[OG Kush (Marijuana)#Island Crystal|Island Crystal]]",
+          "price": "$62",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "68%"
+        },
+        {
+          "ingredient": "bean",
+          "result": "[[OG Kush (Marijuana)#Stinky Dick|Stinky Dick]]",
+          "price": "$58",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Foggy}}",
+          "addictiveness": "15%"
+        },
+        {
+          "ingredient": "chili",
+          "result": "[[OG Kush (Marijuana)#Wedding Fruit|Wedding Fruit]]",
+          "price": "$69",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Spicy}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "91%"
+        },
+        {
+          "ingredient": "battery",
+          "result": "[[OG Kush (Marijuana)#Extreme Dick|Extreme Dick]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "57%"
+        },
+        {
+          "ingredient": "iodine",
+          "result": "[[OG Kush (Marijuana)#Fruity Thunderfuck|Fruity Thunderfuck]]",
+          "price": "$65",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Jennerising}}",
+          "addictiveness": "72%"
+        },
+        {
+          "ingredient": "addy",
+          "result": "[[OG Kush (Marijuana)#Stinky Mint|Stinky Mint]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Thought-Provoking}}",
+          "addictiveness": "74%"
+        },
+        {
+          "ingredient": "horse",
+          "result": "[[OG Kush (Marijuana)#Mega Piss|Mega Piss]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Refreshing}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Long Faced}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "cuke",
+          "result": "[[OG Kush (Marijuana)#Pink Ass|Pink Ass]]",
+          "price": "$47",
+          "effects": "\u2022 {{Effect|Paranoia}}\u2022 {{Effect|Munchies}}\u2022 {{Effect|Energizing}}",
+          "addictiveness": "48%"
+        },
+        {
+          "ingredient": "banana",
+          "result": "[[OG Kush (Marijuana)#Island Crystal|Island Crystal]]",
+          "price": "$62",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "68%"
+        },
+        {
+          "ingredient": "paracetamol",
+          "result": "Ultra Cake",
+          "price": "$55",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "68%"
+        },
+        {
+          "ingredient": "donut",
+          "result": "[[OG Kush (Marijuana)#Thick Cake|Thick Cake]]",
+          "price": "$65",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Example}}\u2022 {{Effect|Calorie-Dense}}",
+          "addictiveness": "78%"
+        },
+        {
+          "ingredient": "viagor",
+          "result": "[[OG Kush (Marijuana)#Sweet Ghost|Sweet Ghost]]",
+          "price": "$71",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "mouth",
+          "result": "[[OG Kush (Marijuana)#Fat Grool|Fat Grool]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Balding}}",
+          "addictiveness": "68%"
+        },
+        {
+          "ingredient": "flu",
+          "result": "[[OG Kush (Marijuana)#Ultra Death|Ultra Death]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Sedating}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "68%"
+        },
+        {
+          "ingredient": "gas",
+          "result": "[[OG Kush (Marijuana)#Wedding Death|Wedding Death]]",
+          "price": "$63",
+          "effects": "\u2022 {{Effect|Toxic}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "energy",
+          "result": "[[OG Kush (Marijuana)#Aspen Splooge|Aspen Splooge]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "oil",
+          "result": "Ultra Cake",
+          "price": "$55",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "68%"
+        },
+        {
+          "ingredient": "bean",
+          "result": "[[OG Kush (Marijuana)#Stinky Stink|Stinky Stink]]",
+          "price": "$51",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Foggy}}",
+          "addictiveness": "15%"
+        },
+        {
+          "ingredient": "chili",
+          "result": "[[OG Kush (Marijuana)#Death Shart|Death Shart]]",
+          "price": "$74",
+          "effects": "\u2022 {{Effect|Slippery}}\u2022 {{Effect|Spicy}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "battery",
+          "result": "[[OG Kush (Marijuana)#Hairy Diamond|Hairy Diamond]]",
+          "price": "$69",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "88%"
+        },
+        {
+          "ingredient": "iodine",
+          "result": "[[OG Kush (Marijuana)#Death Express|Death Express]]",
+          "price": "$70",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Jennerising}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "addy",
+          "result": "[[OG Kush (Marijuana)#Hairy Crack|Hairy Crack]]",
+          "price": "$71",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Thought-Provoking}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "horse",
+          "result": "[[OG Kush (Marijuana)#Death Smegma|Death Smegma]]",
+          "price": "$74",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Long Faced}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "cuke",
+          "result": "[[OG Kush (Marijuana)#Ultra Piss|Ultra Piss]]",
+          "price": "$56",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "49%"
+        },
+        {
+          "ingredient": "banana",
+          "result": "[[OG Kush (Marijuana)#California Ghost|California Ghost]]",
+          "price": "$60",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Calorie-Dense}}",
+          "addictiveness": "47%"
+        },
+        {
+          "ingredient": "paracetamol",
+          "result": "[[OG Kush (Marijuana)#Thick Cake|Thick Cake]]",
+          "price": "$65",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "78%"
+        },
+        {
+          "ingredient": "donut",
+          "result": "[[OG Kush (Marijuana)#Sweet Cum|Sweet Cum]]",
+          "price": "$48",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Explosive}}",
+          "addictiveness": "15%"
+        },
+        {
+          "ingredient": "viagor",
+          "result": "[[OG Kush (Marijuana)#Shiny Fruit|Shiny Fruit]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Effect|Tropic Thunder}}",
+          "addictiveness": "95%"
+        },
+        {
+          "ingredient": "mouth",
+          "result": "[[OG Kush (Marijuana)#Island Durkle|Island Durkle]]",
+          "price": "$73",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "98%"
+        },
+        {
+          "ingredient": "flu",
+          "result": "[[OG Kush (Marijuana)#White Piss|White Piss]]",
+          "price": "$68",
+          "effects": "\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Sedating}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "35%"
+        },
+        {
+          "ingredient": "gas",
+          "result": "[[OG Kush (Marijuana)#Big Gold|Big Gold]]",
+          "price": "$48",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Toxic}}",
+          "addictiveness": "15%"
+        },
+        {
+          "ingredient": "energy",
+          "result": "[[OG Kush (Marijuana)#Gorilla Assblastre|Gorilla Assblastre]]",
+          "price": "$60",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Athletic }}",
+          "addictiveness": "75%"
+        },
+        {
+          "ingredient": "oil",
+          "result": "[[OG Kush (Marijuana)#Nightmare Monkey|Nightmare Monkey]]",
+          "price": "$60",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "45%"
+        },
+        {
+          "ingredient": "bean",
+          "result": "[[OG Kush (Marijuana)#Afghan Crack|Afghan Crack]]",
+          "price": "$74",
+          "effects": "\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Foggy}}\u2022 {{Effect|Glowing}}",
+          "addictiveness": "72%"
+        },
+        {
+          "ingredient": "chili",
+          "result": "[[OG Kush (Marijuana)#Big Death|Big Death]]",
+          "price": "$62",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Spicy}}",
+          "addictiveness": "81%"
+        },
+        {
+          "ingredient": "battery",
+          "result": "[[OG Kush (Marijuana)#Miracle Splooge|Miracle Splooge]]",
+          "price": "$62",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "35%"
+        },
+        {
+          "ingredient": "iodine",
+          "result": "[[OG Kush (Marijuana)#Nightmare Piss|Nightmare Piss]]",
+          "price": "$67",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Jennerising}}",
+          "addictiveness": "39%"
+        },
+        {
+          "ingredient": "addy",
+          "result": "[[OG Kush (Marijuana)#Miracle Haze|Miracle Haze]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Thought-Provoking}}",
+          "addictiveness": "52%"
+        },
+        {
+          "ingredient": "horse",
+          "result": "[[OG Kush (Marijuana)#Thick Diesel|Thick Diesel]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Long Faced}}",
+          "addictiveness": "75%"
+        },
+        {
+          "ingredient": "cuke",
+          "result": "[[OG Kush (Marijuana)#Death Fuel|Death Fuel]]",
+          "price": "$62",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "banana",
+          "result": "[[OG Kush (Marijuana)#Girl Scout Thunderfuck|Girl Scout Thunderfuck]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "paracetamol",
+          "result": "[[OG Kush (Marijuana)#Sweet Ghost|Sweet Ghosst]]",
+          "price": "$71",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "donut",
+          "result": "[[OG Kush (Marijuana)#Shiny Fruit|Shiny Fruit]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "95%"
+        },
+        {
+          "ingredient": "viagor",
+          "result": "Ice Cream Cake<br>Afghan Shart",
+          "price": "$55",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "85%"
+        },
+        {
+          "ingredient": "mouth",
+          "result": "[[OG Kush (Marijuana)#Extreme Assblaster|Extreme Assblaster]]",
+          "price": "$80",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Tropic Thunder}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "flu",
+          "result": "[[OG Kush (Marijuana)#Ice Cream Monkey|Ice Cream Monkey]]",
+          "price": "$74",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Tropic Thunder}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "gas",
+          "result": "[[OG Kush (Marijuana)#White Haze|White Haze]]",
+          "price": "$55",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "85%"
+        },
+        {
+          "ingredient": "energy",
+          "result": "[[OG Kush (Marijuana)#Island Queef|Island Queef]]",
+          "price": "$58",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "99%"
+        },
+        {
+          "ingredient": "oil",
+          "result": "[[OG Kush (Marijuana)#California Urkle|California Urkle]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "bean",
+          "result": "[[OG Kush (Marijuana)#Tokyo Mint|Tokyo Mint]]",
+          "price": "$80",
+          "effects": "\u2022 {{Effect|Foggy}}\u2022 {{Effect|Tropic Thunder}}\u2022 {{Effect|Glowing}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "chili",
+          "result": "[[OG Kush (Marijuana)#Gorilla Balls|Gorilla Balls]]",
+          "price": "$68",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Spicy}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "battery",
+          "result": "[[OG Kush (Marijuana)#Dream Shart|Dream Shart]]",
+          "price": "$69",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Bright-Eyed}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "iodine",
+          "result": "[[OG Kush (Marijuana)#Island Crack|Island Crack]]",
+          "price": "$76",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Jennerising}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "addy",
+          "result": "[[OG Kush (Marijuana)#Dream Cookies|Dream Cookies]]",
+          "price": "$70",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Thought-Provoking}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "horse",
+          "result": "[[OG Kush (Marijuana)#Sweet Gold|Sweet Gold]]",
+          "price": "$73",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Tropic Thunder}}\u2022 {{Effect|Long Faced}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "cuke",
+          "result": "[[OG Kush (Marijuana)#Purple Express|Purple Express]]",
+          "price": "$72",
+          "effects": "\u2022 {{Effect|Energizing}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "banana",
+          "result": "[[OG Kush (Marijuana)#California Rhino|California Rhino]]",
+          "price": "$71",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "66%"
+        },
+        {
+          "ingredient": "paracetamol",
+          "result": "[[OG Kush (Marijuana)#Island Durkle|Island Durkle]]",
+          "price": "$73",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "98%"
+        },
+        {
+          "ingredient": "donut",
+          "result": "[[OG Kush (Marijuana)#Thick Cake|Thick Cake]]",
+          "price": "$65",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "78%"
+        },
+        {
+          "ingredient": "viagor",
+          "result": "[[OG Kush (Marijuana)#Extreme Assblaster|Extreme Assblaster]]",
+          "price": "$80",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Tropic Thunder}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "mouth",
+          "result": "Purple Cheese",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "69%"
+        },
+        {
+          "ingredient": "flu",
+          "result": "[[OG Kush (Marijuana)#Hairy Diesel|Hairy Diesel<br>Banana Punch]]",
+          "price": "$74",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "66%"
+        },
+        {
+          "ingredient": "gas",
+          "result": "[[OG Kush (Marijuana)#California Cum|California Cum]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Toxic}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "66%"
+        },
+        {
+          "ingredient": "energy",
+          "result": "[[OG Kush (Marijuana)#Death Fruit|Death Fruit]]",
+          "price": "$76",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Athletic}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "oil",
+          "result": "[[OG Kush (Marijuana)#Hairy Cake|Hairy Cake]]",
+          "price": "$76",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "97%"
+        },
+        {
+          "ingredient": "bean",
+          "result": "[[OG Kush (Marijuana)#Death Dick|Death Dick]]",
+          "price": "$77",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Foggy}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "76%"
+        },
+        {
+          "ingredient": "chili",
+          "result": "[[OG Kush (Marijuana)#Banana Rhino|Banana Rhino]]",
+          "price": "$75",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Spicy}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "battery",
+          "result": "[[OG Kush (Marijuana)#Banana Cheeese|Banana Cheeese]]",
+          "price": "$78",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Bright-Eyed}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "86%"
+        },
+        {
+          "ingredient": "iodine",
+          "result": "[[OG Kush (Marijuana)#Aspen Death|Aspen Death]]",
+          "price": "$79",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Jennerising}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "addy",
+          "result": "[[OG Kush (Marijuana)#Banana Queef|Banana Queef]]",
+          "price": "$80",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Thought-Provoking}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "horse",
+          "result": "[[OG Kush (Marijuana)#Fat Shart|Fat Sart]]",
+          "price": "$67",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Long Faced}}",
+          "addictiveness": "65%"
+        },
+        {
+          "ingredient": "cuke",
+          "result": "[[OG Kush (Marijuana)#Stinky Shart|Stinky Shart]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "59%"
+        },
+        {
+          "ingredient": "banana",
+          "result": "[[OG Kush (Marijuana)#Purple Gold|Purple Gold]]",
+          "price": "$65",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "25%"
+        },
+        {
+          "ingredient": "paracetamol",
+          "result": "[[OG Kush (Marijuana)#Pink Thunderfuck|Pink Thunderfuck]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "57%"
+        },
+        {
+          "ingredient": "donut",
+          "result": "[[OG Kush (Marijuana)#White Piss|White Piss]]",
+          "price": "$68",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "35%"
+        },
+        {
+          "ingredient": "viagor",
+          "result": "[[OG Kush (Marijuana)#Ice Cream Monkey|Ice Cream Monkey]]",
+          "price": "$74",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Bright-Eyed}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "mouth",
+          "result": "[[OG Kush (Marijuana)#OG Stink|OG Stink]]",
+          "price": "$69",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "25%"
+        },
+        {
+          "ingredient": "flu",
+          "result": "California Fuel",
+          "price": "$58",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "25%"
+        },
+        {
+          "ingredient": "gas",
+          "result": "[[OG Kush (Marijuana)#Purple Grool|Purple Grool]]",
+          "price": "$58",
+          "effects": "\u2022 {{Effect|Toxic}}\u2022 {{Effect|Sedating}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "25%"
+        },
+        {
+          "ingredient": "energy",
+          "result": "[[OG Kush (Marijuana)#Fruity Shart|Fruity Shart]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Munchies}}\u2022 {{Effect|Athletic}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "95%"
+        },
+        {
+          "ingredient": "oil",
+          "result": "[[OG Kush (Marijuana)#Garilla Cheese|Garilla Cheese]]",
+          "price": "$70",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "55%"
+        },
+        {
+          "ingredient": "bean",
+          "result": "[[OG Kush (Marijuana)#Miracle Balls|Miracle Balls]]",
+          "price": "$71",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Foggy}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "35%"
+        },
+        {
+          "ingredient": "chili",
+          "result": "[[OG Kush (Marijuana)#California Cheese|California Cheese]]",
+          "price": "$71",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Spicy}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "91%"
+        },
+        {
+          "ingredient": "battery",
+          "result": "California Fuel",
+          "price": "$58",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "25%"
+        },
+        {
+          "ingredient": "iodine",
+          "result": "[[OG Kush (Marijuana)#Miracle Cock|Miracle Cock]]",
+          "price": "$73",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Bright-Eyed}}\u2022 {{Effect|Jennerising}}",
+          "addictiveness": "59%"
+        },
+        {
+          "ingredient": "addy",
+          "result": "[[OG Kush (Marijuana)#Nightmare Slime|Nightmate Slime]]",
+          "price": "$71",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Bright-Eyed}}\u2022 {{Effect|Thought-Provoking}}",
+          "addictiveness": "62%"
+        },
+        {
+          "ingredient": "horse",
+          "result": "[[OG Kush (Marijuana)#Nightmare Death|Nightmare Death]]",
+          "price": "$76",
+          "effects": "\u2022 {{Effect|Sedating}}\u2022 {{Effect|Bright-Eyed}}\u2022 {{Effect|Long Faced}}",
+          "addictiveness": "85%"
+        },
+        {
+          "ingredient": "cuke",
+          "result": "[[OG Kush (Marijuana)#Bio Assblaster|Bio Assblaster]]",
+          "price": "$52",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Euphoric}}\u2022 {{Effect|Energizing}}",
+          "addictiveness": "62%"
+        },
+        {
+          "ingredient": "banana",
+          "result": "[[OG Kush (Marijuana)#Aspen Cock|Aspen Cock]]",
+          "price": "$50",
+          "effects": "\u2022 {{Effect|Smelly}}\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}",
+          "addictiveness": "37%"
+        },
+        {
+          "ingredient": "paracetamol",
+          "result": "[[OG Kush (Marijuana)#Sweet Ghost|Sweet Ghost]]",
+          "price": "$71",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "donut",
+          "result": "[[OG Kush (Marijuana)#Big Gold|Big Gold]]",
+          "price": "$48",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Calorie-Dense}}",
+          "addictiveness": "15%"
+        },
+        {
+          "ingredient": "viagor",
+          "result": "[[OG Kush (Marijuana)#White Haze|White Haze]]",
+          "price": "$55",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "85%"
+        },
+        {
+          "ingredient": "mouth",
+          "result": "[[OG Kush (Marijuana)#California Cum|California Cum]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Toxic}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "66%"
+        },
+        {
+          "ingredient": "flu",
+          "result": "[[OG Kush (Marijuana)#Purple Grool|Purple Grool]]",
+          "price": "$58",
+          "effects": "\u2022 {{Effect|Toxic}}\u2022 {{Effect|Sedating}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "25%"
+        },
+        {
+          "ingredient": "gas",
+          "result": "Miracle Crack",
+          "price": "$38",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}",
+          "addictiveness": "5%"
+        },
+        {
+          "ingredient": "energy",
+          "result": "[[OG Kush (Marijuana)#California Diesel|California Diesel]]",
+          "price": "$50",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "65%"
+        },
+        {
+          "ingredient": "oil",
+          "result": "[[OG Kush (Marijuana)#Super Queef|Super Queef]]",
+          "price": "$50",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "39%"
+        },
+        {
+          "ingredient": "bean",
+          "result": "[[OG Kush (Marijuana)#California Cock|California Cock]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Toxic}}\u2022 {{Effect|Foggy}}\u2022 {{Effect|Glowing}}",
+          "addictiveness": "62%"
+        },
+        {
+          "ingredient": "chili",
+          "result": "[[OG Kush (Marijuana)#Girl Scout Rhino|Girl Scout Rhino]]",
+          "price": "$52",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Spicy}}",
+          "addictiveness": "71%"
+        },
+        {
+          "ingredient": "battery",
+          "result": "[[OG Kush (Marijuana)#Sweet Crack|Sweet Crack]]",
+          "price": "$52",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "25%"
+        },
+        {
+          "ingredient": "iodine",
+          "result": "[[OG Kush (Marijuana)#Extreme Balls|Extreme Balls]]",
+          "price": "$69",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Balding}}\u2022 {{Effect|Jennerising}}",
+          "addictiveness": "72%"
+        },
+        {
+          "ingredient": "addy",
+          "result": "[[OG Kush (Marijuana)#White Monkey|White Monkey]]",
+          "price": "$54",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Thought-Provoking}}",
+          "addictiveness": "42%"
+        },
+        {
+          "ingredient": "horse",
+          "result": "[[OG Kush (Marijuana)#Island Assblaster|Island Assblaster]]",
+          "price": "$57",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Long Faced}}",
+          "addictiveness": "65%"
+        },
+        {
+          "ingredient": "cuke",
+          "result": "[[OG Kush (Marijuana)#Purple Puke|Purple Puke]]",
+          "price": "$57",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Energizing}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "99%"
+        },
+        {
+          "ingredient": "banana",
+          "result": "[[OG Kush (Marijuana)#Granddaddy Smegma|Granddaddy Smegma]]",
+          "price": "$62",
+          "effects": "\u2022 {{Effect|Gingeritis}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "98%"
+        },
+        {
+          "ingredient": "paracetamol",
+          "result": "[[OG Kush (Marijuana)#Aspen Splooge|Aspen Splooge]]",
+          "price": "$66",
+          "effects": "\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Slippery}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "donut",
+          "result": "[[OG Kush (Marijuana)#Gorilla Assblaster|Gorilla Assblaster]]",
+          "price": "$60",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Calorie-Dense}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "75%"
+        },
+        {
+          "ingredient": "viagor",
+          "result": "[[OG Kush (Marijuana)#Slimy Piss|Slimy Piss]]",
+          "price": "$63",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Sneaky}}\u2022 {{Effect|Tropic Thunder}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "mouth",
+          "result": "[[OG Kush (Marijuana)#Death Fruit|Death Fruit]]",
+          "price": "$76",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Athletic}}\u2022 {{Effect|Anti-Gravity}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "flu",
+          "result": "[[OG Kush (Marijuana)#Dark Diesel|Dark Diesel]]",
+          "price": "$62",
+          "effects": "\u2022 {{Effect|Munchies}}\u2022 {{Effect|Sedating}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "34%"
+        },
+        {
+          "ingredient": "gas",
+          "result": "[[OG Kush (Marijuana)#California Diesel|California Diesel]]",
+          "price": "$50",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Toxic}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "65%"
+        },
+        {
+          "ingredient": "energy",
+          "result": "Purple Assblaster",
+          "price": "$50",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Athletic}}",
+          "addictiveness": "65%"
+        },
+        {
+          "ingredient": "oil",
+          "result": "[[OG Kush (Marijuana)#White Slime|White Slime]]",
+          "price": "$62",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Athletic}}\u2022 {{Effect|Slippery}}",
+          "addictiveness": "96%"
+        },
+        {
+          "ingredient": "bean",
+          "result": "[[OG Kush (Marijuana)#Big Diamond|Big Diamond]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Laxative}}\u2022 {{Effect|Foggy}}\u2022 {{Effect|Glowing}}",
+          "addictiveness": "72%"
+        },
+        {
+          "ingredient": "chili",
+          "result": "[[OG Kush (Marijuana)#Stinky Assblaster|Stinky Assblaster]]",
+          "price": "$58",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Euphoric}}\u2022 {{Effect|Spicy}}",
+          "addictiveness": "95%"
+        },
+        {
+          "ingredient": "battery",
+          "result": "[[OG Kush (Marijuana)#Banana McLovin|Banana McLovin]]",
+          "price": "$64",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Athletic}}\u2022 {{Effect|Bright-Eyed}}",
+          "addictiveness": "85%"
+        },
+        {
+          "ingredient": "iodine",
+          "result": "[[OG Kush (Marijuana)#Slimy Crack|Slimy Crack]]",
+          "price": "$71",
+          "effects": "\u2022 {{Effect|Balding}}\u2022 {{Effect|Athletic}}\u2022 {{Effect|Jennerising}}",
+          "addictiveness": "71%"
+        },
+        {
+          "ingredient": "addy",
+          "result": "[[OG Kush (Marijuana)#Banana Thunderfuck|Banana Thunderfuck]]",
+          "price": "$65",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Athletic}}\u2022 {{Effect|Thought-Provoking}}",
+          "addictiveness": "100%"
+        },
+        {
+          "ingredient": "horse",
+          "result": "[[OG Kush (Marijuana)#Aspen Gold|Aspen Gold]]",
+          "price": "$68",
+          "effects": "\u2022 {{Effect|Calming}}\u2022 {{Effect|Athletic}}\u2022 {{Effect|Long Faced}}",
+          "addictiveness": "100%"
+        }
+      ]
+    },
+    "Sour Diesel": {
+      "name": "Sour Diesel",
+      "price": "$40",
+      "ingredients_raw": "Sour Diesel Seeds ($35), Soil, Water, Fertilizers (optional)",
+      "yield": "Grow Tent: 8 units (12 w/ PGR), Pot: 12 units (16 w/ PGR)",
+      "production_time": "~5 hours 5 minutes (fastest)~7 hours 20 minutes (slowest)",
+      "supplier": "Albert Hoover",
+      "equipment": "Watering Can, Trimmers, Grow Tent ''or'' pot, grow light and suspension rack, Pot Sprinkler (optional), Soil Pourer (optional)",
+      "recipes": []
+    },
+    "Green Crack": {
+      "name": "Green Crack",
+      "price": "$43",
+      "ingredients_raw": "Green Crack Seeds ($40), Soil, Water, Fertilizers (optional)",
+      "yield": "Grow Tent: 8 units (12 w/ PGR), Pot: 12 units (16 w/ PGR)",
+      "production_time": "~5 hours 5 minutes (fastest)~7 hours 20 minutes (slowest)",
+      "supplier": "Albert Hoover",
+      "equipment": "Watering Can, Trimmers, Grow Tent ''or'' pot, grow light and suspension rack, Pot Sprinkler (optional), Soil Pourer (optional)",
+      "recipes": []
+    },
+    "Granddaddy Purple": {
+      "name": "Granddaddy Purple",
+      "price": "$44",
+      "ingredients_raw": "Granddaddy Purple Seeds ($45), Soil, Water, Fertilizers (optional)",
+      "yield": "Grow Tent: 8 units (12 w/ PGR), Pot: 12 units (16 w/ PGR)",
+      "production_time": "~5 hours 5 minutes (fastest)~7 hours 20 minutes (slowest)",
+      "supplier": "Albert Hoover",
+      "equipment": "Watering Can, Trimmers, Grow Tent ''or'' pot, grow light and suspension rack, Pot Sprinkler (optional), Soil Pourer (optional)",
+      "recipes": []
+    },
+    "Methamphetamine": {
+      "name": "Methamphetamine",
+      "price": "$700",
+      "ingredients_raw": "Acid ($40), Red Phosphorus ($40), Pseudoephedrine ($60-$110)",
+      "yield": "10 crystals",
+      "production_time": "14 hours (14 real minutes) total in 2 steps",
+      "supplier": "Shirley Watts",
+      "equipment": "Chemistry Station ($1000), Lab Oven ($1000)",
+      "recipes": []
+    },
+    "Shrooms": {
+      "name": "Shrooms",
+      "price": "$1,040",
+      "ingredients_raw": "[[Spore Syringe]], [[Grain Bag]], [[Mushroom Substrate]]",
+      "yield": "16-20 Shrooms per bed",
+      "production_time": "12 hours (variable)",
+      "supplier": "[[Fungal Phil]]",
+      "equipment": "[[Mushroom Spawn Station]], [[Mushroom Bed]], [[AC Unit]], [[Spray Bottle]]",
+      "recipes": []
+    },
+    "Cocaine": {
+      "name": "Cocaine",
+      "price": "$1,500",
+      "ingredients_raw": "Coca Leaves (20), Gasoline ($5)",
+      "yield": "10 per batch",
+      "production_time": "20.5 - 28.5 hours growing + 12 hours processing (in-game time)",
+      "supplier": "Salvador Moreno",
+      "equipment": "Cauldron ($3,000), Lab Oven ($1,000)",
+      "recipes": []
+    }
+  },
+  "ingredients": {
+    "Cuke": {
+      "name": "Cuke",
+      "price": "$2",
+      "source": "Gas-Mart|item_id=cuke|stack_size=20}}"
+    },
+    "Banana": {
+      "name": "Banana",
+      "price": "$2",
+      "source": "Gas-Mart|item_id=banana|stack_size=20}}"
+    },
+    "Paracetamol": {
+      "name": "Paracetamol",
+      "price": "$3",
+      "source": "Gas-Mart|item_id=paracetamol|stack_size=20}}"
+    },
+    "Donut": {
+      "name": "Donut",
+      "price": "$3",
+      "source": "Gas-Mart|item_id=donut|stack_size=20}}"
+    },
+    "Gasoline": {
+      "name": "Gasoline",
+      "price": "$5",
+      "source": "Gas-Mart, Oscar's Store|item_id=gasoline|stack_size=20}}"
+    },
+    "Energy_Drink": {
+      "name": "Energy_Drink",
+      "price": "$6",
+      "source": "Gas-Mart|item_id=energydrink|stack_size=20}}"
+    }
+  },
+  "fetch_time": "2026-05-20 03:50:58"
+}
