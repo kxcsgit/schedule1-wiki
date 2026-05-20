@@ -5,15 +5,30 @@ import { drugs, ingredients, properties, achievements } from '@/lib/static-data'
 export default function Home() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      {/* Hero Section */}
-      <div className="text-center mb-12">
-        <h1 className="font-mono text-4xl font-bold text-gray-900 mb-4">
-          Schedule I <span className="text-[#3847f5]">Wiki</span>
-        </h1>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          A comprehensive guide to Schedule I. Find all drugs, ingredients, mixing recipes, 
-          properties, and achievements in one place.
-        </p>
+      {/* Hero Section with Game Image */}
+      <div className="relative rounded-2xl overflow-hidden mb-12 bg-gradient-to-r from-gray-900 to-gray-800">
+        <img 
+          src="/images/steam/header.jpg" 
+          alt="Schedule I" 
+          className="w-full h-64 md:h-80 object-cover opacity-60"
+        />
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-6">
+          <h1 className="font-mono text-4xl md:text-5xl font-bold text-white mb-4">
+            Schedule I <span className="text-[#3847f5]">Wiki</span>
+          </h1>
+          <p className="text-lg text-gray-200 max-w-2xl mx-auto mb-6">
+            A comprehensive guide to Schedule I. Find all drugs, ingredients, mixing recipes, 
+            properties, and achievements in one place.
+          </p>
+          <div className="flex gap-4">
+            <Link href="/drugs" className="bg-[#3847f5] hover:bg-[#2d3ad4] text-white px-6 py-3 rounded-lg font-mono text-sm transition-colors">
+              Browse Drugs
+            </Link>
+            <Link href="/guides/getting-started" className="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-lg font-mono text-sm transition-colors backdrop-blur-sm">
+              Getting Started
+            </Link>
+          </div>
+        </div>
       </div>
 
       {/* Stats */}
@@ -81,6 +96,20 @@ export default function Home() {
         </Card>
       </div>
 
+      {/* Screenshots */}
+      <SectionHeader title="Screenshots" description="From the game" />
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+        {[1, 2, 3, 4, 5].map(i => (
+          <div key={i} className="rounded-xl overflow-hidden border border-gray-200/50 hover-lift">
+            <img 
+              src={`/images/screenshots/${i}.jpg`} 
+              alt={`Screenshot ${i}`}
+              className="w-full h-48 object-cover"
+            />
+          </div>
+        ))}
+      </div>
+
       {/* Featured Content */}
       <SectionHeader title="Featured Content" description="Popular guides and resources" />
       
@@ -106,7 +135,7 @@ export default function Home() {
         </Card>
       </div>
 
-      {/* Recent Updates */}
+      {/* Game Info */}
       <SectionHeader title="Game Info" description="About Schedule I" />
       
       <Card title="Schedule I" className="mb-8">

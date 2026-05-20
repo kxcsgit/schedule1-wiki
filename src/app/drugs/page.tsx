@@ -1,10 +1,9 @@
 import { drugs } from '@/lib/static-data';
+import { imageMap } from '@/lib/images';
 import { Card, StatCard, SectionHeader, Breadcrumb, Tag } from '@/components/ui';
 import Link from 'next/link';
 
 export default function DrugsPage() {
-  
-
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <Breadcrumb items={[
@@ -27,36 +26,39 @@ export default function DrugsPage() {
 
       {/* Drug List */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {drugs.map(drug => (
-          <Card 
-            key={drug.name} 
-            title={drug.name} 
-            href={`/drugs/${drug.name.toLowerCase().replace(/\s+/g, '-')}`}
-            className="hover-lift"
-          >
-            <div className="space-y-3">
-              <div className="flex items-center justify-between">
-                <span className="font-mono text-2xl font-bold text-[#3847f5]">{drug.value}</span>
-                <Tag variant="accent">{drug.effect || 'None'}</Tag>
-              </div>
-              
-              <div className="text-sm text-gray-600">
-                <p><strong>Unlock:</strong> {drug.unlockRank}</p>
-              </div>
-
-              {drug.productionProcess.length > 0 && (
-                <div className="text-sm text-gray-600">
-                  <p className="font-mono text-xs text-gray-500 mb-1">Production:</p>
-                  <ul className="space-y-1">
-                    {drug.productionProcess.map((step, i) => (
-                      <li key={i} className="text-xs">• {step}</li>
-                    ))}
-                  </ul>
+        {drugs.map(drug => {
+          const imageUrl = imageMap[drug.slug];
+          return (
+            <Card 
+              key={drug.name} 
+              title={drug.name} 
+              href={`/drugs/${drug.slug}`}
+              className="hover-lift"
+            >
+              <div className="flex gap-4">
+                {imageUrl && (
+                  <div className="w-16 h-16 flex-shrink-0 rounded-lg overflow-hidden bg-white/50 border border-gray-200/50">
+                    <img
+                      src={imageUrl}
+                      alt={drug.name}
+                      className="object-contain w-full h-full p-1"
+                    />
+                  </div>
+                )}
+                <div className="flex-1 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="font-mono text-xl font-bold text-[#3847f5]">{drug.value}</span>
+                    <Tag variant="accent">{drug.effect || 'None'}</Tag>
+                  </div>
+                  
+                  <div className="text-sm text-gray-600">
+                    <p><strong>Unlock:</strong> {drug.unlockRank}</p>
+                  </div>
                 </div>
-              )}
-            </div>
-          </Card>
-        ))}
+              </div>
+            </Card>
+          );
+        })}
       </div>
 
       {/* Mixing Guide */}

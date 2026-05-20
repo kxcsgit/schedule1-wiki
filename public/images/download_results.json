@@ -1,0 +1,116 @@
+{
+  "drugs": {
+    "og-kush": {
+      "file": "/images/drugs/og-kush.png",
+      "source": "Brick_ogkush_icon.png"
+    },
+    "sour-diesel": {
+      "file": "/images/drugs/sour-diesel.png",
+      "source": "Brick_sourdiesel_icon.png"
+    },
+    "green-crack": {
+      "file": "/images/drugs/green-crack.png",
+      "source": "Brick_greencrack_icon.png"
+    },
+    "granddaddy-purple": {
+      "file": "/images/drugs/granddaddy-purple.png",
+      "source": "Brick_granddaddypurple_icon.png"
+    },
+    "methamphetamine": {
+      "file": "/images/drugs/methamphetamine.png",
+      "source": "Brick_meth_icon.png"
+    },
+    "cocaine": {
+      "file": "/images/drugs/cocaine.png",
+      "source": "Cocaine_Icon.png"
+    }
+  },
+  "ingredients": {
+    "cuke": {
+      "file": "/images/ingredients/cuke.png",
+      "source": "Cuke_Icon.png"
+    },
+    "banana": {
+      "file": "/images/ingredients/banana.png",
+      "source": "Banana_Icon.png"
+    },
+    "paracetamol": {
+      "file": "/images/ingredients/paracetamol.png",
+      "source": "Paracetamol_Icon.png"
+    },
+    "donut": {
+      "file": "/images/ingredients/donut.png",
+      "source": "Donut_Icon.png"
+    },
+    "mouth-wash": {
+      "file": "/images/ingredients/mouth-wash.png",
+      "source": "Mouth_Wash_Icon.png"
+    },
+    "flu-medicine": {
+      "file": "/images/ingredients/flu-medicine.png",
+      "source": "Flu_Medicine_Icon.png"
+    },
+    "gasoline": {
+      "file": "/images/ingredients/gasoline.png",
+      "source": "Gasoline_Icon.png"
+    },
+    "energy-drink": {
+      "file": "/images/ingredients/energy-drink.png",
+      "source": "Energy_Drink_Icon.png"
+    },
+    "mega-bean": {
+      "file": "/images/ingredients/mega-bean.png",
+      "source": "Mega_Bean_Icon.png"
+    },
+    "battery": {
+      "file": "/images/ingredients/battery.png",
+      "source": "Battery_Icon.png"
+    },
+    "iodine": {
+      "file": "/images/ingredients/iodine.png",
+      "source": "Iodine_Icon.png"
+    },
+    "addy": {
+      "file": "/images/ingredients/addy.png",
+      "source": "Addy_Icon.png"
+    },
+    "chili": {
+      "file": "/images/ingredients/chili.png",
+      "source": "Chili_Icon.png"
+    },
+    "motor-oil": {
+      "file": "/images/ingredients/motor-oil.png",
+      "source": "Motor_Oil_Icon.png"
+    },
+    "phosphorus": {
+      "file": "/images/ingredients/phosphorus.png",
+      "source": "Phosphorus_Icon.png"
+    },
+    "acid": {
+      "file": "/images/ingredients/acid.png",
+      "source": "Acid_Icon.png"
+    }
+  },
+  "properties": {
+    "sweatshop": {
+      "file": "/images/properties/sweatshop.jpg",
+      "source": "Behind_Sweatshop.jpg"
+    },
+    "bungalow": {
+      "file": "/images/properties/bungalow.png",
+      "source": "Bungalow.png"
+    },
+    "barn": {
+      "file": "/images/properties/barn.png",
+      "source": "Barn.png"
+    },
+    "docks-warehouse": {
+      "file": "/images/properties/docks-warehouse.jpeg",
+      "source": "Docks_Warehouse.jpeg"
+    },
+    "storage-unit": {
+      "file": "/images/properties/storage-unit.png",
+      "source": "Storage_Unit.png"
+    }
+  }
+}

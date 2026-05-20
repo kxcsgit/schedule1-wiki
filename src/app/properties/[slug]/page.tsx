@@ -1,4 +1,5 @@
 import { properties, getProperty } from '@/lib/static-data';
+import { getImage } from '@/lib/images';
 import { Card, StatCard, SectionHeader, Breadcrumb, Tag } from '@/components/ui';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -21,6 +22,8 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
     notFound();
   }
 
+  const imageUrl = getImage(slug);
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <Breadcrumb items={[
@@ -29,14 +32,31 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
         { label: property.name }
       ]} />
 
-      <SectionHeader title={property.name} description={`Property in Schedule I`} />
+      <div className="flex flex-col md:flex-row gap-8 mb-8">
+        {/* Property Image */}
+        {imageUrl && (
+          <div className="w-full md:w-80 flex-shrink-0">
+            <div className="relative aspect-video rounded-xl overflow-hidden bg-white/50 border border-gray-200/50">
+              <img
+                src={imageUrl}
+                alt={property.name}
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </div>
+        )}
+        
+        <div className="flex-1">
+          <SectionHeader title={property.name} description={`Property in Schedule I`} />
 
-      {/* Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <StatCard label="Price" value={property.price === 'Free' ? 'Free' : property.price} />
-        <StatCard label="Location" value={property.location} />
-        <StatCard label="Size" value={property.size} />
-        <StatCard label="Employee Limit" value={property.employeeLimit} />
+          {/* Stats */}
+          <div className="grid grid-cols-2 gap-4">
+            <StatCard label="Price" value={property.price === 'Free' ? 'Free' : property.price} />
+            <StatCard label="Location" value={property.location} />
+            <StatCard label="Size" value={property.size} />
+            <StatCard label="Employee Limit" value={property.employeeLimit} />
+          </div>
+        </div>
       </div>
 
       {/* Details */}

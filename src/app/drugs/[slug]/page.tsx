@@ -1,7 +1,9 @@
 import { drugs, getDrug } from '@/lib/static-data';
+import { getImage } from '@/lib/images';
 import { Card, StatCard, SectionHeader, Breadcrumb, Tag, DataTable } from '@/components/ui';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 
 interface DrugPageProps {
   params: Promise<{ slug: string }>;
@@ -21,6 +23,8 @@ export default async function DrugPage({ params }: DrugPageProps) {
     notFound();
   }
 
+  const imageUrl = getImage(slug);
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <Breadcrumb items={[
@@ -29,14 +33,31 @@ export default async function DrugPage({ params }: DrugPageProps) {
         { label: drug.name }
       ]} />
 
-      <SectionHeader title={drug.name} description={`Drug type in Schedule I`} />
+      <div className="flex flex-col md:flex-row gap-8 mb-8">
+        {/* Drug Image */}
+        {imageUrl && (
+          <div className="w-full md:w-64 flex-shrink-0">
+            <div className="relative aspect-square rounded-xl overflow-hidden bg-white/50 border border-gray-200/50">
+              <img
+                src={imageUrl}
+                alt={drug.name}
+                className="object-contain w-full h-full p-4"
+              />
+            </div>
+          </div>
+        )}
+        
+        <div className="flex-1">
+          <SectionHeader title={drug.name} description={`Drug type in Schedule I`} />
 
-      {/* Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <StatCard label="Base Value" value={drug.value} />
-        <StatCard label="Base Effect" value={drug.effect || 'None'} />
-        <StatCard label="Unlock Rank" value={drug.unlockRank} />
-        <StatCard label="Ingredients" value={drug.ingredients.length.toString()} />
+          {/* Stats */}
+          <div className="grid grid-cols-2 gap-4">
+            <StatCard label="Base Value" value={drug.value} />
+            <StatCard label="Base Effect" value={drug.effect || 'None'} />
+            <StatCard label="Unlock Rank" value={drug.unlockRank} />
+            <StatCard label="Ingredients" value={drug.ingredients.length.toString()} />
+          </div>
+        </div>
       </div>
 
       {/* Description */}

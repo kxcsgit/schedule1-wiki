@@ -1,4 +1,5 @@
 import { ingredients, getIngredient } from '@/lib/static-data';
+import { getImage } from '@/lib/images';
 import { Card, StatCard, SectionHeader, Breadcrumb, Tag, DataTable } from '@/components/ui';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -21,6 +22,8 @@ export default async function IngredientPage({ params }: IngredientPageProps) {
     notFound();
   }
 
+  const imageUrl = getImage(slug);
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <Breadcrumb items={[
@@ -29,14 +32,31 @@ export default async function IngredientPage({ params }: IngredientPageProps) {
         { label: ingredient.name }
       ]} />
 
-      <SectionHeader title={ingredient.name} description={`Ingredient for mixing`} />
+      <div className="flex flex-col md:flex-row gap-8 mb-8">
+        {/* Ingredient Image */}
+        {imageUrl && (
+          <div className="w-full md:w-48 flex-shrink-0">
+            <div className="relative aspect-square rounded-xl overflow-hidden bg-white/50 border border-gray-200/50">
+              <img
+                src={imageUrl}
+                alt={ingredient.name}
+                className="object-contain w-full h-full p-3"
+              />
+            </div>
+          </div>
+        )}
+        
+        <div className="flex-1">
+          <SectionHeader title={ingredient.name} description={`Ingredient for mixing`} />
 
-      {/* Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <StatCard label="Price" value={ingredient.price} />
-        <StatCard label="Base Effect" value={ingredient.baseEffect} />
-        <StatCard label="Reputation" value={ingredient.reputationRequirement} />
-        <StatCard label="Replacements" value={ingredient.effectReplacements.length.toString()} />
+          {/* Stats */}
+          <div className="grid grid-cols-2 gap-4">
+            <StatCard label="Price" value={ingredient.price} />
+            <StatCard label="Base Effect" value={ingredient.baseEffect} />
+            <StatCard label="Reputation" value={ingredient.reputationRequirement} />
+            <StatCard label="Replacements" value={ingredient.effectReplacements.length.toString()} />
+          </div>
+        </div>
       </div>
 
       {/* Description */}
