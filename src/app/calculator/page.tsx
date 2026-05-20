@@ -3,7 +3,7 @@
 import { useState, useCallback, useRef } from 'react';
 import { ALL_BASES, MIXERS, EFFECTS } from '@/lib/game-data';
 import { calculateMix, type MixResult } from '@/lib/mix-calculator';
-import { findRecipesFast, findRecipesDeep, type FoundRecipe } from '@/lib/reverse-finder';
+import { findRecipesFast, findRecipesDeep, type FoundRecipe, classifyTargets, getProducibleEffects } from '@/lib/reverse-finder';
 
 const MAX_ADDITIVES = 8;
 type Mode = 'ingredient' | 'effect';
@@ -24,6 +24,7 @@ export default function CalculatorPage() {
   const [searchStats, setSearchStats] = useState({ combos: 0, elapsed: 0, matches: 0 });
   const [searchBase, setSearchBase] = useState('OG Kush');
   const searchAbort = useRef(false);
+  const [impossibleEffects, setImpossibleEffects] = useState<string[]>([]);
 
   // ===== Mix by Ingredient logic =====
   const recalc = useCallback((base: string, mixers: string[]) => {
@@ -67,6 +68,17 @@ export default function CalculatorPage() {
 
   const handleSearch = (deep: boolean) => {
     if (targetEffects.length === 0) return;
+
+    // Check which effects are achievable
+    const { achievable, impossible } = classifyTargets(targetEffects, searchBase);
+    setImpossibleEffects(impossible);
+
+    if (achievable.length === 0) {
+      setSearchResults([]);
+      setSearchStats({ combos: 0, elapsed: 0, matches: 0 });
+      return;
+    }
+
     setIsSearching(true);
     setSearchResults([]);
     setSearchStats({ combos: 0, elapsed: 0, matches: 0 });
@@ -77,7 +89,7 @@ export default function CalculatorPage() {
     // Use setTimeout to avoid blocking the UI
     setTimeout(() => {
       const fn = deep ? findRecipesDeep : findRecipesFast;
-      const results = fn(searchBase, targetEffects, (combos, matches) => {
+      const results = fn(searchBase, achievable, (combos, matches) => {
         setSearchStats({ combos, matches, elapsed: Math.round((performance.now() - startTime) / 1000) });
       });
 
@@ -99,6 +111,9 @@ export default function CalculatorPage() {
     const ta = EFFECTS[a].tier, tb = EFFECTS[b].tier;
     return ta !== tb ? ta - tb : a.localeCompare(b);
   });
+
+  // Pre-compute producible effects for the indicator
+  const producibleSet = getProducibleEffects();
 
   return (
     <div style={{ minHeight: '100vh', background: '#0f0a1a', color: '#e2e8f0' }}>
@@ -320,17 +335,20 @@ export default function CalculatorPage() {
                       const effect = EFFECTS[effectName];
                       const selected = targetEffects.includes(effectName);
                       return (
-                        <button key={effectName} onClick={() => handleToggleTarget(effectName)}
-                          style={{
-                            display: 'flex', alignItems: 'center', gap: 5, padding: '5px 12px', borderRadius: 8,
-                            border: selected ? `1px solid ${effect.color}` : '1px solid #2d2545',
-                            background: selected ? `${effect.color}22` : 'transparent',
-                            color: selected ? effect.color : '#64748b',
-                            cursor: 'pointer', fontSize: 13, fontWeight: 500, transition: 'all 0.15s',
-                          }}>
-                          {selected && <span style={{ fontSize: 11 }}>✓</span>}
-                          {effectName}
-                          <span style={{ fontSize: 11, opacity: 0.6 }}>+{(effect.multiplier * 100).toFixed(0)}%</span>
+                          <button key={effectName}
+                            onClick={() => producibleSet.has(effectName) && handleToggleTarget(effectName)}
+                            style={{
+                              display: 'flex', alignItems: 'center', gap: 5, padding: '5px 12px', borderRadius: 8, position: 'relative',
+                              border: selected ? `1px solid ${effect.color}` : '1px solid #2d2545',
+                              background: selected ? `${effect.color}22` : 'transparent',
+                              color: selected ? effect.color : producibleSet.has(effectName) ? '#64748b' : '#3f3f46',
+                              cursor: producibleSet.has(effectName) ? 'pointer' : 'not-allowed', fontSize: 13, fontWeight: 500, transition: 'all 0.15s',
+                              opacity: producibleSet.has(effectName) ? 1 : 0.5,
+                            }}>
+                            {selected && <span style={{ fontSize: 11 }}>✓</span>}
+                            {effectName}
+                            <span style={{ fontSize: 11, opacity: 0.6 }}>+{(effect.multiplier * 100).toFixed(0)}%</span>
+                            {!producibleSet.has(effectName) && <span style={{ fontSize: 10, color: '#7f1d1d', marginLeft: 2 }}>✗</span>}
                         </button>
                       );
                     })}
@@ -338,6 +356,25 @@ export default function CalculatorPage() {
                 </div>
               ))}
             </div>
+
+            {/* Impossible effects warning */}
+            {impossibleEffects.length > 0 && (
+              <div style={{ background: '#7f1d1d22', borderRadius: 12, border: '1px solid #7f1d1d', padding: 16 }}>
+                <div style={{ fontSize: 13, fontWeight: 600, color: '#f87171', marginBottom: 8 }}>
+                  ⚠️ 以下效果无法通过混合产生：
+                </div>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                  {impossibleEffects.map((e) => (
+                    <span key={e} style={{ fontSize: 12, padding: '3px 10px', borderRadius: 6, background: '#7f1d1d33', color: '#f87171', border: '1px solid #7f1d1d' }}>
+                      ✗ {e}
+                    </span>
+                  ))}
+                </div>
+                <div style={{ fontSize: 12, color: '#94a3b8', marginTop: 8 }}>
+                  这些效果只能通过特定大麻品种自带（如 OG Kush 自带 Calming），或根本无法获得。搜索将只使用可达成的效果。
+                </div>
+              </div>
+            )}
 
             {/* Base + Search Controls */}
             <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>

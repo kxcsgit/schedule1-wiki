@@ -16,6 +16,53 @@ export interface FoundRecipe {
   profitMargin: number;
 }
 
+/**
+ * Check which effects can possibly be produced through mixing.
+ * An effect is producible if:
+ * - It's a mixer's default effect, OR
+ * - It's the target of an effect replacement rule
+ * - OR it's the inherent effect of the selected base product
+ */
+export function getProducibleEffects(baseName?: string): Set<string> {
+  const mixerEffects = new Set(Object.values(MIXERS).map((m) => m.effect));
+  const replacementTargets = new Set(Object.values(EFFECT_REPLACEMENTS));
+  const producible = new Set([...mixerEffects, ...replacementTargets]);
+
+  // Add inherent effects from all bases (or just the selected one)
+  if (baseName) {
+    const base = ALL_BASES.find((b) => b.name === baseName);
+    if (base?.inherentEffect) producible.add(base.inherentEffect);
+  } else {
+    for (const b of ALL_BASES) {
+      if (b.inherentEffect) producible.add(b.inherentEffect);
+    }
+  }
+
+  return producible;
+}
+
+/**
+ * Filter target effects, returning which are achievable and which are not.
+ */
+export function classifyTargets(
+  targetEffects: string[],
+  baseName: string
+): { achievable: string[]; impossible: string[] } {
+  const producible = getProducibleEffects(baseName);
+  const achievable: string[] = [];
+  const impossible: string[] = [];
+
+  for (const t of targetEffects) {
+    if (producible.has(t)) {
+      achievable.push(t);
+    } else {
+      impossible.push(t);
+    }
+  }
+
+  return { achievable, impossible };
+}
+
 // Simulate mixing: given base + mixer list, return final effects
 function simulateMix(baseName: string, mixerNames: string[]): string[] {
   const base = ALL_BASES.find((b) => b.name === baseName);
@@ -80,33 +127,35 @@ export function findRecipes(
   maxResults: number = 200,
   onProgress?: (combosTested: number, matchesFound: number) => void
 ): FoundRecipe[] {
+  // First, filter out impossible targets
+  const { achievable, impossible } = classifyTargets(targetEffects, baseName);
+  if (achievable.length === 0) return [];
+
   const mixerNames = Object.keys(MIXERS);
   const results: FoundRecipe[] = [];
   let combosTested = 0;
   let matchesFound = 0;
-  const targetSet = new Set(targetEffects);
+  const targetSet = new Set(achievable);
 
-  // DFS: try each mixer at each position
   function dfs(currentMixers: string[], depth: number) {
     if (depth >= maxDepth) return;
     if (results.length >= maxResults) return;
 
     for (const mixerName of mixerNames) {
-      // Allow repeats (some recipes need repeated ingredients)
       const nextMixers = [...currentMixers, mixerName];
       const effects = simulateMix(baseName, nextMixers);
       const effectSet = new Set(effects);
 
       combosTested++;
 
-      // Check how many target effects are matched
+      // Check how many ACHIEVABLE target effects are matched
       let matched = 0;
-      for (const t of targetEffects) {
+      for (const t of achievable) {
         if (effectSet.has(t)) matched++;
       }
 
-      // If all targets matched, record this recipe
-      if (matched === targetEffects.length) {
+      // If all achievable targets matched, record this recipe
+      if (matched === achievable.length) {
         const sellPrice = calcSellPrice(baseName, effects);
         const totalCost = calcMixerCost(nextMixers);
         const profit = sellPrice - totalCost;
@@ -115,9 +164,9 @@ export function findRecipes(
           baseName,
           mixers: [...nextMixers],
           effects,
-          matchedEffects: targetEffects,
+          matchedEffects: achievable,
           matchCount: matched,
-          targetCount: targetEffects.length,
+          targetCount: achievable.length,
           sellPrice,
           totalCost,
           profit,
@@ -125,24 +174,18 @@ export function findRecipes(
         });
 
         matchesFound++;
-
-        // Don't explore deeper if we already matched all targets
-        // (adding more mixers would only increase cost)
         continue;
       }
 
-      // Pruning: if remaining depth can't possibly add enough new effects, skip
+      // Light pruning: only skip if we truly can't add enough effects
       const remainingSlots = maxDepth - depth - 1;
-      const unmatchedTargets = targetEffects.length - matched;
-      // Each new mixer can add at most 1 new effect (optimistic)
-      if (unmatchedTargets > remainingSlots + 1) {
-        continue; // Can't possibly match all targets
+      const newEffectsAvailable = nextMixers.length < 8;
+      if (!newEffectsAvailable && matched < achievable.length) {
+        continue; // At max effects, can't add more
       }
 
-      // Continue searching deeper
       dfs(nextMixers, depth + 1);
 
-      // Report progress every 5000 combos
       if (combosTested % 5000 === 0 && onProgress) {
         onProgress(combosTested, matchesFound);
       }
@@ -169,16 +212,16 @@ export function findRecipesFast(
   targetEffects: string[],
   onProgress?: (combosTested: number, matchesFound: number) => void
 ): FoundRecipe[] {
-  return findRecipes(baseName, targetEffects, 4, 100, onProgress);
+  return findRecipes(baseName, targetEffects, 5, 100, onProgress);
 }
 
 /**
- * Deep search: up to 8 mixers, more results
+ * Deep search: up to 6 mixers, more results
  */
 export function findRecipesDeep(
   baseName: string,
   targetEffects: string[],
   onProgress?: (combosTested: number, matchesFound: number) => void
 ): FoundRecipe[] {
-  return findRecipes(baseName, targetEffects, 6, 500, onProgress);
+  return findRecipes(baseName, targetEffects, 7, 500, onProgress);
 }
